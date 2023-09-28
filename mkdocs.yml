@@ -1,0 +1,30 @@
+site_name: doc.jp
+site_author: tyler
+nav:
+  - Home: 'index.md'
+  - 'Goals':
+      - 'goals/long-term.md'
+  - 'Resources':
+      - 'resources/resources.md'
+theme:
+  features:
+    - navigation.instant
+    - navigation.sections
+    - search.suggest
+    - search.highlighting
+    - search.share
+  name: material
+markdown_extensions:
+  - toc:
+      permalink: true
+  - meta
+  - admonition
+  - attr_list
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.keys
+  - pymdownx.tabbed

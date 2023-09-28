@@ -1,5 +1,9 @@
 # doc.jp
 
+[![ci](https://github.com/tdwaf/doc.jp/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/tdwaf/doc.jp/actions/workflows/ci.yml)
+
+[![pages-build-deployment](https://github.com/tdwaf/doc.jp/actions/workflows/pages/pages-build-deployment/badge.svg?branch=main)](https://github.com/tdwaf/doc.jp/actions/workflows/pages/pages-build-deployment)
+
 ## What is it?
 
 `doc.jp` is a documentation page for me have a central place for any Japanese information pertaining to my studies.

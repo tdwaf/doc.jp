@@ -5,6 +5,7 @@ on:
     paths:
       - "**.md"
       - "mkdocs.yml"
+  workflow_dispatch:
 permissions:
   contents: write
 jobs:

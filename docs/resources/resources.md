@@ -1,4 +1,4 @@
 # Resources Landing Page
 
-!!! important "TODO: Add information"
+!!! danger "TODO: Add information"
     Testing admonitions

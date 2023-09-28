@@ -16,5 +16,7 @@ jobs:
           python-version: 3.x
       - run: pip install --upgrade pip && pip install mkdocs mkdocs-gen-files
       - run: pip install mkdocs-material
+      - name: Build docs
+        run: mkdocs build
       - name: Publish docs
         run: mkdocs gh-deploy --force

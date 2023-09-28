@@ -6,7 +6,7 @@
 
 ## What is it?
 
-`doc.jp` is a documentation page for me have a central place for any Japanese information pertaining to my studies.
+`doc.jp` is a documentation page for any Japanese information pertaining to my studies. This is intended for my use and not for a broader use case.
 
 ## Why does it exist?
 

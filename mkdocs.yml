@@ -16,6 +16,7 @@ nav:
   - 'Resources':
     - 'resources/resources.md'
 theme:
+  name: material
   features:
     - navigation.instant
     - navigation.sections
@@ -24,7 +25,24 @@ theme:
     - search.suggest
     - search.highlighting
     - search.share
-  name: material
+  palette:
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+      primary: indigo
+      accent: indigo
+
+    # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+      primary: slate
+      accent: indigo
+  custom_dir: overrides
+  logo: false
 extra_css:
   - css/styles.css
 markdown_extensions:
@@ -33,3 +51,11 @@ markdown_extensions:
   - meta
   - admonition
   - attr_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde

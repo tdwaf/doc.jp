@@ -19,10 +19,14 @@ theme:
   features:
     - navigation.instant
     - navigation.sections
+    - navigation.tabs
+    - navigation.tabs.sticky
     - search.suggest
     - search.highlighting
     - search.share
   name: material
+extra_css:
+  - css/styles.css
 markdown_extensions:
   - toc:
       permalink: true

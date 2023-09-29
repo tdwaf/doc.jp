@@ -2,11 +2,13 @@ site_name: doc.jp
 site_author: tyler
 nav:
   - Home: 'index.md'
+  - 'Grammar':
+    - 'grammar/JFZ/ましょう.md'
   - 'Goals':
-      - 'goals/long-term.md'
-      - 'goals/2023/october.md'
+    - 'goals/long-term.md'
+    - 'goals/2023/october.md'
   - 'Resources':
-      - 'resources/resources.md'
+    - 'resources/resources.md'
 theme:
   features:
     - navigation.instant

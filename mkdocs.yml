@@ -21,6 +21,9 @@ nav:
   - 'Goals':
     - 'goals/long-term.md'
     - 'goals/2023/october.md'
+  - 'Tool Setup': 
+    - 'Yomichan': 'tool-setup/yomichan.md'
+    - 'Sentence Mining': 'tool-setup/mining.md'
   - 'Resources': 'resources/resources.md'
 theme:
   name: material

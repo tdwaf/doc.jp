@@ -1,6 +1,20 @@
 # doc.jp Landing Page
 
-!!! warning "What to expect?"
-    There will be some a transition period while I figure out how I want the documentation to be formatted.
+## Anki Stats
 
-    - One ide as to map everything by `N~` level.
+!!! failure "Important"
+    These are not updated every day so they aren't always accurate. I want to eventually write a script that will handle this dynamically, but for now, screenshots will suffice.
+
+    **Updated Every Monday**
+
+## Daily Activity
+
+![Daily Activity](./assets/anki-stats/daily-activity.png){ align=center }
+
+## Card Counts
+
+![Card Counts](./assets/anki-stats/card-counts.png){ align=center }
+
+## Reviews for 1 month
+
+![Anki Stats](./assets/anki-stats/reviews.png){ align=center }

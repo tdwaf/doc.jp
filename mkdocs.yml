@@ -16,12 +16,17 @@ nav:
         - 'grammar/JFZ/まだ.md'
         - 'grammar/JFZ/そして.md'
         - 'grammar/JFZ/あいだ.md'
+        - 'grammar/JFZ/い-adjectives.md'
+        - 'grammar/JFZ/な-adjectives.md'
   - 'Goals':
     - 'goals/long-term.md'
     - 'goals/2023/october.md'
   - 'Resources': 'resources/resources.md'
 theme:
   name: material
+  icon:
+    admonition:
+      failure: material/exclamation
   features:
     - navigation.instant
     - navigation.sections

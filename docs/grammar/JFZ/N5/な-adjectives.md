@@ -4,7 +4,7 @@
 
 な adjectives must have な after them when directly modifying. They cannot be used to modify unless な comes after them.
 
-![な Adjectives](../../assets/images/な-adjectives.png)
+![な Adjectives](../../../assets/images/な-adjectives.png)
 
 !!! example "Examples"
     - `きらいなくるま　→　a clean car`

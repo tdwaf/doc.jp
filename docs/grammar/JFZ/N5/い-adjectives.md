@@ -10,7 +10,7 @@
 
 To modify a word, they are simply placed in front of it
 
-![い-adjectives](../../assets/images/い-adjectives.png)
+![い-adjectives](../../../assets/images/い-adjectives.png)
 
 !!! example "Examples"
     - `たかいｋるま　→　an expensive car`
@@ -39,7 +39,7 @@ To modify a word, they are simply placed in front of it
 
 い adjectives can be made into past tense by taking the い off the end and adding `かった`. This works for the negative and positive forms of the adjective
 
-![い Adjective Past Tense](../../assets/images/い-adjective-pasttense.png)
+![い Adjective Past Tense](../../../assets/images/い-adjective-pasttense.png)
 
 !!! example "Examples"
     ```

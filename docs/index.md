@@ -3,18 +3,14 @@
 ## Anki Stats
 
 !!! failure "Important"
-    These are not updated every day so they aren't always accurate. I want to eventually write a script that will handle this dynamically, but for now, screenshots will suffice.
+    For now, all I'm showing is my daily card count after going through Tango N5. Will eventually want to have a script auto populate this and any other decks I have. For now, a screenshot will suffice
 
-    **Updated Every Monday**
+    **Updated Every Day**
 
-## Daily Activity
-
-![Daily Activity](./assets/anki-stats/daily-activity.png){ align=center }
 
 ## Card Counts
 
+As of **_10/01/2023_** `358 Vocabulary words known`
+
 ![Card Counts](./assets/anki-stats/card-counts.png){ align=center }
 
-## Reviews for 1 month
-
-![Anki Stats](./assets/anki-stats/reviews.png){ align=center }

@@ -4,20 +4,26 @@ nav:
   - Home: 'index.md'
   - 'Grammar':
     - 'Particles':
-      - 'grammar/JFZ/と.md'
-      - 'grammar/JFZ/の.md'
+      - 'grammar/JFZ/N5/を.md'
+      - 'grammar/JFZ/N5/と.md'
+      - 'grammar/JFZ/N5/の.md'
+      - 'grammar/JFZ/N5/よ.md'
     - 'Grammar Points':
       - 'N5 Level Grammar':
-        - 'grammar/JFZ/ましょう.md'
-        - 'grammar/JFZ/よく.md'
-        - 'grammar/JFZ/あんまり.md'
-        - 'grammar/JFZ/もう.md'
-        - 'grammar/JFZ/を.md'
-        - 'grammar/JFZ/まだ.md'
-        - 'grammar/JFZ/そして.md'
-        - 'grammar/JFZ/あいだ.md'
-        - 'grammar/JFZ/い-adjectives.md'
-        - 'grammar/JFZ/な-adjectives.md'
+        - 'grammar/JFZ/N5/ましょう.md'
+        - 'grammar/JFZ/N5/よく.md'
+        - 'grammar/JFZ/N5/あんまり.md'
+        - 'grammar/JFZ/N5/もう.md'
+        - 'grammar/JFZ/N5/まだ.md'
+        - 'grammar/JFZ/N5/そして.md'
+        - 'grammar/JFZ/N5/あいだ.md'
+        - 'grammar/JFZ/N5/い-adjectives.md'
+        - 'grammar/JFZ/N5/な-adjectives.md'
+        - 'grammar/JFZ/N5/verb-negatives.md'
+        - 'grammar/JFZ/N5/た-form.md'
+      - 'N4 Level Grammar':
+        - 'grammar/JFZ/N4/それに.md'
+
   - 'Goals':
     - 'goals/long-term.md'
     - 'goals/2023/october.md'
@@ -27,6 +33,7 @@ nav:
   - 'Resources': 'resources/resources.md'
 theme:
   name: material
+  logo: assets/logo/logo.svg
   icon:
     admonition:
       failure: material/exclamation
@@ -55,9 +62,6 @@ theme:
       primary: slate
       accent: indigo
   custom_dir: overrides
-  logo: false
-extra_css:
-  - css/styles.css
 markdown_extensions:
   - toc:
       permalink: true
@@ -74,3 +78,5 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+extra_css:
+  - css/styles.css

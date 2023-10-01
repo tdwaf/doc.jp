@@ -33,6 +33,7 @@ nav:
   - 'Resources': 'resources/resources.md'
 theme:
   name: material
+  logo: assets/logo/logo.svg
   icon:
     admonition:
       failure: material/exclamation
@@ -61,9 +62,6 @@ theme:
       primary: slate
       accent: indigo
   custom_dir: overrides
-  logo: false
-extra_css:
-  - css/styles.css
 markdown_extensions:
   - toc:
       permalink: true
@@ -80,3 +78,5 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+extra_css:
+  - css/styles.css

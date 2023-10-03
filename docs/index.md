@@ -14,3 +14,15 @@ As of **_10/03/2023_** `378 Vocabulary words known`
 
 ![Card Counts](./assets/anki-stats/card-counts.png){ align=center }
 
+## Things I need to work on currently
+
+- でしょう
+- Adjectives ending in い
+- Adjectives that are also nouns
+- Will/Does/Do (not)
+- describing a noun
+- Not (adjective)
+- Negative-past tense
+- Was not, Wasn't (Adjective)
+- And, Besides, Moreover, In addition
+- まだ

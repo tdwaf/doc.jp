@@ -17,12 +17,16 @@ As of **_10/03/2023_** `378 Vocabulary words known`
 ## Things I need to work on currently
 
 - でしょう
-- Adjectives ending in い
-- Adjectives that are also nouns
-- Will/Does/Do (not)
-- describing a noun
-- Not (adjective)
-- Negative-past tense
-- Was not, Wasn't (Adjective)
+- い-Adjective
+- な-Adjective
+- る-Verb (Negative)
+- う-Verb (Negative)
+- い-Adjective + (Noun)
+- な-Adjective + (Noun)
+- くない
+- る-Verb (Negative-Past)
+- う-Verb (Negative-Past)
+- くなかった
 - And, Besides, Moreover, In addition
 - まだ
+- から

@@ -10,23 +10,13 @@
 
 ## Card Counts
 
-As of **_10/03/2023_** `378 Vocabulary words known`
+As of **_10/04/2023_** `393 Vocabulary words known`
 
 ![Card Counts](./assets/anki-stats/card-counts.png){ align=center }
 
 ## Things I need to work on currently
 
-- でしょう
-- い-Adjective
-- な-Adjective
-- る-Verb (Negative)
-- う-Verb (Negative)
-- い-Adjective + (Noun)
-- な-Adjective + (Noun)
-- くない
-- る-Verb (Negative-Past)
-- う-Verb (Negative-Past)
+- Will/Does/Do (not)
+- Describing a noun
+- Negative-Past
 - くなかった
-- And, Besides, Moreover, In addition
-- まだ
-- から

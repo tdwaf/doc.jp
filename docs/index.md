@@ -10,13 +10,11 @@
 
 ## Card Counts
 
-As of **_10/04/2023_** `393 Vocabulary words known`
+As of **_10/05/2023_** `403 Vocabulary words known`
 
 ![Card Counts](./assets/anki-stats/card-counts.png){ align=center }
 
 ## Things I need to work on currently
 
 - Will/Does/Do (not)
-- Describing a noun
-- Negative-Past
-- くなかった
+- Past tense (う and る verbs)

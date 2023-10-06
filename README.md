@@ -16,7 +16,7 @@ I was originally using obsidian to organize my notes, but this quickly became an
 
 The solution was to either use an online notebook service like `notion` or `evernote`, or just make my own documentation site. I chose to make my own documentation site as I won't ever have to worry about my notes being lost.
 
-## Architecture
+## What was it built with?
 
 `doc.jp` was built using [mkdocs](https://www.mkdocs.org/) with the [material theme](https://squidfunk.github.io/mkdocs-material/). I use plenty of addons to make the documentation more personalized which you can see in the [mkdocs.yml](./mkdocs.yml) file.
 

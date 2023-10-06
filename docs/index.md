@@ -17,5 +17,6 @@ As of **_10/06/2023_** `413 Vocabulary words known`
 ## Things I need to work on currently
 
 Just learned:
+
 - ごろ
 - ぐらい

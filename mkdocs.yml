@@ -27,10 +27,10 @@ nav:
         - 'grammar/JFZ/N5/ぐらい.md'
       - 'N4 Level Grammar':
         - 'grammar/JFZ/N4/それに.md'
-
   - 'Goals':
     - 'goals/long-term.md'
     - 'goals/2023/october.md'
+  - 'Study Plan': 'plan/study-plan.md'
   - 'Tool Setup': 
     - 'Yomichan': 'tool-setup/yomichan.md'
     - 'Sentence Mining': 'tool-setup/mining.md'

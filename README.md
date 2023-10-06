@@ -14,7 +14,7 @@ I was originally using obsidian to organize my notes, but this quickly became an
 
 The solution was to either use an online notebook service like `notion` or `evernote`, or just make my own documentation site. I chose to make my own documentation site as I won't ever have to worry about my notes being lost.
 
-## What was it build with?
+## What was it built with?
 
 I use mkdocs with the material theme for this site. I was originally going to use docusaurus with react and tailwind, but I didn't want something super complicated.
 

@@ -6,7 +6,7 @@
 
 ## What is it?
 
-`doc.jp` is a documentation page for any Japanese information pertaining to my studies. This is intended for my use and not for a broader use case.
+`doc.jp` is a central place for any notes pertaining to my Japanese studies that's built using mkdocs with the material theme.
 
 ## Why does it exist?
 
@@ -14,13 +14,7 @@ I was originally using obsidian to organize my notes, but this quickly became an
 
 The solution was to either use an online notebook service like `notion` or `evernote`, or just make my own documentation site. I chose to make my own documentation site as I won't ever have to worry about my notes being lost.
 
-## What was it built with?
-
-I use mkdocs with the material theme for this site. I was originally going to use docusaurus with react and tailwind, but I didn't want something super complicated.
-
-I just wanted a site that was easy to add to as I'll be adding to it everyday while I study.
-
-## More information pertaining to my learning
+## Information pertaining to my Japanese learning journey
 
 ### When did I start learning Japanese?
 

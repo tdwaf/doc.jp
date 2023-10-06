@@ -16,5 +16,6 @@ As of **_10/06/2023_** `413 Vocabulary words known`
 
 ## Things I need to work on currently
 
-- Will/Does/Do (not)
-- Past tense (う and る verbs)
+Just learned:
+- ごろ
+- ぐらい

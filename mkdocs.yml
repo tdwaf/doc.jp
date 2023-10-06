@@ -30,11 +30,11 @@ nav:
   - 'Goals':
     - 'goals/long-term.md'
     - 'goals/2023/october.md'
-  - 'Study Plan': 'plan/study-plan.md'
   - 'Tool Setup': 
     - 'Yomichan': 'tool-setup/yomichan.md'
     - 'Sentence Mining': 'tool-setup/mining.md'
   - 'Resources': 'resources/resources.md'
+  - 'Study Plan': 'plan/study-plan.md'
 theme:
   name: material
   logo: assets/logo/logo.svg

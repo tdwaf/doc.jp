@@ -10,7 +10,7 @@
 
 ## Card Counts
 
-As of **_10/09/2023_** `442 Vocabulary words known`
+As of **_10/10/2023_** `453 Vocabulary words known`
 
 ![Card Counts](./assets/anki-stats/card-counts.png){ align=center }
 

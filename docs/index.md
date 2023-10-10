@@ -16,18 +16,13 @@ As of **_10/10/2023_** `453 Vocabulary words known`
 
 ## Things I need to work on currently
 
-Just learned:
+Needs Review:
 
 - で
 - に frequency
-
-Needs Review:
-
 - から
 - ごろ
 - ぐらい
-- 全然
-- 大体
 
 ## JFZ Book 3 Lesson Page Numbers (No Directory on kindle)
 

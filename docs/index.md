@@ -10,19 +10,11 @@
 
 ## Card Counts
 
-As of **_10/10/2023_** `453 Vocabulary words known`
+As of **_10/11/2023_** `453 Vocabulary words known`
 
 ![Card Counts](./assets/anki-stats/card-counts.png){ align=center }
 
 ## Things I need to work on currently
-
-Needs Review:
-
-- で
-- に frequency
-- から
-- ごろ
-- ぐらい
 
 ## JFZ Book 3 Lesson Page Numbers (No Directory on kindle)
 
@@ -30,8 +22,8 @@ Needs Review:
     - Starts: 9
     - Workbook: 21
 - Lesson 2:
-    - Starts: 33
-    - Workbook: 42
+    - Starts: 49
+    - Workbook: 52
 - Lesson 3:
     - Starts: 53
     - Workbook: 63

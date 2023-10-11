@@ -9,8 +9,12 @@ nav:
       - 'grammar/JFZ/N5/の.md'
       - 'grammar/JFZ/N5/よ.md'
       - 'grammar/JFZ/N5/で.md'
+      - 'grammar/JFZ/N5/に-frequency.md'
     - 'Grammar Points':
       - 'N5 Level Grammar':
+        - 'grammar/JFZ/N5/い-adjectives.md'
+        - 'grammar/JFZ/N5/な-adjectives.md'
+        - 'grammar/JFZ/N5/verb-negatives.md'
         - 'grammar/JFZ/N5/ましょう.md'
         - 'grammar/JFZ/N5/よく.md'
         - 'grammar/JFZ/N5/あんまり.md'
@@ -18,15 +22,12 @@ nav:
         - 'grammar/JFZ/N5/まだ.md'
         - 'grammar/JFZ/N5/そして.md'
         - 'grammar/JFZ/N5/あいだ.md'
-        - 'grammar/JFZ/N5/い-adjectives.md'
-        - 'grammar/JFZ/N5/な-adjectives.md'
-        - 'grammar/JFZ/N5/verb-negatives.md'
-        - 'grammar/JFZ/N5/た-form.md'
         - 'grammar/JFZ/N5/から.md'
         - 'grammar/JFZ/N5/でしょう.md'
         - 'grammar/JFZ/N5/ごろ.md'
         - 'grammar/JFZ/N5/ぐらい.md'
-        - 'grammar/JFZ/N5/に-frequency.md'
+        - 'grammar/JFZ/N5/た-form.md'
+        - 'grammar/JFZ/N5/て-form.md'
       - 'N4 Level Grammar':
         - 'grammar/JFZ/N4/それに.md'
   - 'Goals':

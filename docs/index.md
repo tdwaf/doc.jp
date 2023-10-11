@@ -2,15 +2,13 @@
 
 ## Anki Stats
 
-!!! failure "Important"
-    For now, all I'm showing is my daily card count after going through Tango N5. Will eventually want to have a script auto populate this and any other decks I have. For now, a screenshot will suffice
+At some point, I do plan on scripting this out. But for now, I'll just update it daily.
 
-    **Updated Every Day**
-
-
-## Card Counts
+### Card Counts
 
 As of **_10/11/2023_** `453 Vocabulary words known`
+
+#### Tango N5
 
 ![Card Counts](./assets/anki-stats/card-counts.png){ align=center }
 

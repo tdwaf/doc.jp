@@ -6,7 +6,7 @@ At some point, I do plan on scripting this out. But for now, I'll just update it
 
 ### Card Counts
 
-As of **_10/11/2023_** `453 Vocabulary words known`
+As of **_10/12/2023_** `463 Vocabulary words known`
 
 #### Tango N5
 
@@ -14,8 +14,8 @@ As of **_10/11/2023_** `453 Vocabulary words known`
 
 ## Things I need to work on currently
 
-- て form
-- ください
+- と quotation
+- とおもう (to think)
 
 ## JFZ Book 3 Lesson Page Numbers (No Directory on kindle)
 

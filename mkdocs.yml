@@ -4,12 +4,12 @@ nav:
   - Home: 'index.md'
   - 'Grammar':
     - 'Particles':
-      - 'grammar/JFZ/N5/を.md'
-      - 'grammar/JFZ/N5/と.md'
-      - 'grammar/JFZ/N5/の.md'
-      - 'grammar/JFZ/N5/よ.md'
-      - 'grammar/JFZ/N5/で.md'
-      - 'grammar/JFZ/N5/に-frequency.md'
+      - 'grammar/particles/を.md'
+      - 'grammar/particles/と.md'
+      - 'grammar/particles/の.md'
+      - 'grammar/particles/よ.md'
+      - 'grammar/particles/で.md'
+      - 'grammar/particles/に-frequency.md'
     - 'Grammar Points':
       - 'N5 Level Grammar':
         - 'grammar/JFZ/N5/い-adjectives.md'
@@ -31,6 +31,14 @@ nav:
         - 'grammar/JFZ/N5/ください.md'
       - 'N4 Level Grammar':
         - 'grammar/JFZ/N4/それに.md'
+        - 'grammar/JFZ/N4/とおもう.md'
+        - 'grammar/JFZ/N4/ぜんぜん.md'
+        - 'grammar/JFZ/N4/だいたい.md'
+    - 'Misc':
+      - 'Misc Grammar Points':
+        - 'grammar/misc/なにも.md'
+        - 'grammar/misc/どう.md'
+        - 'grammar/misc/たち.md'
   - 'Goals':
     - 'goals/long-term.md'
     - 'goals/2023/october.md'

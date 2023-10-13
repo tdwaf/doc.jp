@@ -6,9 +6,18 @@ At some point, I do plan on scripting this out. But for now, I'll just update it
 
 ### Card Counts
 
-As of **_10/12/2023_** `473 Vocabulary words known`: On track to finish December 23rd.
+#### Tango N5 as of _10/13/2023_ 
 
-#### Tango N5
+**473** Vocabulary words known: On track to finish December 23rd doing 10 new cards a day.
+
+!!! info "Something to think about"
+    If I were to jump to 20 new cards a day, I would finish this deck on November 18th. This means a couple of things:
+    
+    - It would take around an hour to complete my anki reviews and new cards every day (which isn't too bad)
+    - This would also mean I would need to move my grammar study to a different part of the day.
+        - Maybe during lunch? Although I like to watch anime or read manga during lunch. 
+    
+    So I guess it's something to think about. I honestly want to focus on reviewing grammar points for longer periods of time anyways so I think 20 cards a day would be fine. I can always take a day or two to just do reviews if I'm struggling (like with the places kanji I was struggling with). Will think it over.
 
 ![Card Counts](./assets/anki-stats/card-counts.png){ align=center }
 

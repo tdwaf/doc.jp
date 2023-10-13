@@ -2,11 +2,11 @@
 
 What 'event frequency' means is how often or how many times an event occurs. The counter for frequency is 回.
 
-![回-freq-counter](../../../assets/images/figures/回-freq-counter.png)
+![回-freq-counter](../../assets/images/figures/回-freq-counter.png)
 
 You can use event frequency in a sentence with a time span to say how many times something has been done in a certain period of time.
 
-![に-frequency](../../../assets/images/figures/に-frequency.png)
+![に-frequency](../../assets/images/figures/に-frequency.png)
 
 !!! example "Example Q & A"
     **Q**: 貴方は一年に何回アメリカに来ますか　→　How many times a year do you come to America?  

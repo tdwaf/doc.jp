@@ -6,7 +6,7 @@ At some point, I do plan on scripting this out. But for now, I'll just update it
 
 ### Card Counts
 
-As of **_10/12/2023_** `463 Vocabulary words known`
+As of **_10/12/2023_** `473 Vocabulary words known`: On track to finish December 23rd.
 
 #### Tango N5
 

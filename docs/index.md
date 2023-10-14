@@ -6,20 +6,23 @@ At some point, I do plan on scripting this out. But for now, I'll just update it
 
 ### Card Counts
 
+!!! info "Current Daily New Card Count"
+    Will do **15 cards** a day for now. Might do 20 in the future, but 15 seems like a sweet spot for me.
+
 #### Tango N5 as of _10/13/2023_ 
 
-**473** Vocabulary words known: On track to finish December 23rd doing 10 new cards a day.
-
-!!! info "Something to think about"
-    If I were to jump to 20 new cards a day, I would finish this deck on November 18th. This means a couple of things:
-    
-    - It would take around an hour to complete my anki reviews and new cards every day (which isn't too bad)
-    - This would also mean I would need to move my grammar study to a different part of the day.
-        - Maybe during lunch? Although I like to watch anime or read manga during lunch. 
-    
-    So I guess it's something to think about. I honestly want to focus on reviewing grammar points for longer periods of time anyways so I think 20 cards a day would be fine. I can always take a day or two to just do reviews if I'm struggling (like with the places kanji I was struggling with). Will think it over.
+**493** Vocabulary words known: On track to finish all new cards on **_November 29th_** with my current daily card amount.
 
 ![Card Counts](./assets/anki-stats/card-counts.png){ align=center }
+
+!!! info "End dates with various daily card amounts"
+    > "End date" refers to the day where I have no **new** cards. I will still review after this period.
+
+    As I was curious, here are the end dates with different daily new card amounts:
+    
+    - **10 New Cards Daily**: _December 23rd_
+    - **15 New Cards Daily**: _November 29th_ → _My current planned end date_
+    - **20 New Cards Daily**: _November 18th_
 
 ## Things I need to work on currently
 

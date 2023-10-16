@@ -26,7 +26,10 @@ At some point, I do plan on scripting this out. But for now, I'll just update it
 
 ## Things I need to work on currently
 
-
+- ている
+- より
+- のほうが
+- か (or)
 
 ## JFZ Book 3 Lesson Page Numbers (No Directory on kindle)
 

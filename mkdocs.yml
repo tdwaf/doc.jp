@@ -9,6 +9,7 @@ nav:
       - 'grammar/particles/の.md'
       - 'grammar/particles/よ.md'
       - 'grammar/particles/で.md'
+      - 'grammar/particles/か.md'
       - 'grammar/particles/に-frequency.md'
     - 'Grammar Points':
       - 'N5 Level Grammar':
@@ -29,11 +30,14 @@ nav:
         - 'grammar/JFZ/N5/た-form.md'
         - 'grammar/JFZ/N5/て-form.md'
         - 'grammar/JFZ/N5/ください.md'
+        - 'grammar/JFZ/N5/ている.md'
+        - 'grammar/JFZ/N5/より.md'
       - 'N4 Level Grammar':
         - 'grammar/JFZ/N4/それに.md'
         - 'grammar/JFZ/N4/とおもう.md'
         - 'grammar/JFZ/N4/ぜんぜん.md'
         - 'grammar/JFZ/N4/だいたい.md'
+        - 'grammar/JFZ/N4/より.md'
     - 'Misc':
       - 'Misc Grammar Points':
         - 'grammar/misc/なにも.md'

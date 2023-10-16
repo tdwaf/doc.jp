@@ -11,7 +11,7 @@ At some point, I do plan on scripting this out. But for now, I'll just update it
 
 #### Tango N5 as of _10/14/2023_ 
 
-**508** Vocabulary words known with 663 new cards remaining: On track to finish all new cards on **_November 29th_** with my current daily card amount.
+**523** Vocabulary words known with 648 new cards remaining: On track to finish all new cards on **_November 29th_** with my current daily card amount.
 
 ![Card Counts](./assets/anki-stats/card-counts.png){ align=center }
 
@@ -26,8 +26,7 @@ At some point, I do plan on scripting this out. But for now, I'll just update it
 
 ## Things I need to work on currently
 
-- と quotation
-- とおもう (to think)
+
 
 ## JFZ Book 3 Lesson Page Numbers (No Directory on kindle)
 

@@ -9,20 +9,11 @@ At some point, I do plan on scripting this out. But for now, I'll just update it
 !!! info "Current Daily New Card Count"
     Will do **15 cards** a day for now. Might do 20 in the future, but 15 seems like a sweet spot for me.
 
-#### Tango N5 as of _10/16/2023_ 
+#### Tango N5 as of _10/17/2023_ 
 
-**523** Vocabulary words known with 648 new cards remaining: On track to finish all new cards on **_November 29th_** with my current daily card amount.
+**538** Vocabulary words known with 633 new cards remaining: On track to finish all new cards on **_November 29th_** with my current daily card amount. Then I'll start Tango N4.
 
 ![Card Counts](./assets/anki-stats/card-counts.png){ align=center }
-
-!!! info "End dates with various daily card amounts"
-    > "End date" refers to the day where I have no **new** cards. I will still review after this period.
-
-    As I was curious, here are the end dates with different daily new card amounts:
-    
-    - **10 New Cards Daily**: _December 23rd_
-    - **15 New Cards Daily**: _November 29th_ → _My current planned end date_
-    - **20 New Cards Daily**: _November 18th_
 
 ## Things I need to work on currently
 

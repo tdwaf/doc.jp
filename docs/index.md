@@ -9,9 +9,9 @@ At some point, I do plan on scripting this out. But for now, I'll just update it
 !!! info "Current Daily New Card Count"
     Will do **15 cards** a day for now. Might do 20 in the future, but 15 seems like a sweet spot for me.
 
-#### Tango N5 as of _10/19/2023_ 
+#### Tango N5 as of _10/23/2023_ 
 
-**568** Vocabulary words known with 603 new cards remaining: On track to finish all new cards on **_November 29th_** with my current daily card amount. Then I'll start Tango N4.
+**638** Vocabulary words known with 533 new cards remaining: On track to finish all new cards on **_November 29th_** with my current daily card amount. Then I'll start Tango N4.
 
 ![Card Counts](./assets/anki-stats/card-counts.png){ align=center }
 
@@ -20,7 +20,7 @@ At some point, I do plan on scripting this out. But for now, I'll just update it
 - ている
 - より
 - のほうが
-- か (or)
+- とおもい
 
 ## JFZ Book 3 Lesson Page Numbers (No Directory on kindle)
 

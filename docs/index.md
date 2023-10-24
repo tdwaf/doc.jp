@@ -9,15 +9,14 @@ At some point, I do plan on scripting this out. But for now, I'll just update it
 !!! info "Current Daily New Card Count"
     Will do **15 cards** a day for now. Might do 20 in the future, but 15 seems like a sweet spot for me.
 
-#### Tango N5 as of _10/23/2023_ 
+#### Tango N5 as of _10/24/2023_ 
 
-**638** Vocabulary words known with 533 new cards remaining: On track to finish all new cards on **_November 29th_** with my current daily card amount. Then I'll start Tango N4.
+**653** Vocabulary words known with 518 new cards remaining: On track to finish all new cards on **_November 28th_** with my current daily card amount. Then I'll start Tango N4.
 
 ![Card Counts](./assets/anki-stats/card-counts.png){ align=center }
 
 ## Things I need to work on currently
 
-- ている
 - より
 - のほうが
 - とおもい

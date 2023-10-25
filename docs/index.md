@@ -6,22 +6,19 @@ At some point, I do plan on scripting this out. But for now, I'll just update it
 
 ### Card Counts
 
-!!! info "Current Daily New Card Count"
-    Will do **15 cards** a day for now. Might do 20 in the future, but 15 seems like a sweet spot for me.
-
 #### Tango N5 as of _10/24/2023_ 
 
-**653** Vocabulary words known with 518 new cards remaining: On track to finish all new cards on **_November 28th_** with my current daily card amount. Then I'll start Tango N4.
+**668** Vocabulary words known with 503 new cards remaining: On track to finish all new cards on **_November 28th_** doing 15 new cards a day. Then I'll start Tango N4 with the same new card amount.
 
 ![Card Counts](./assets/anki-stats/card-counts.png){ align=center }
 
-## Things I need to work on currently
+## Grammar Learning
 
-- より
-- のほうが
-- とおもい
+### Things I need to work on currently
 
-## JFZ Book 3 Lesson Page Numbers (No Directory on kindle)
+For now, I will mostly focus on cramming my grammar reviews and all I've learned. In a few days, I'll learn some new stuff
+
+### JFZ Book 3 Lesson Page Numbers (No Directory on kindle)
 
 - Lesson 1:
     - Starts: 9

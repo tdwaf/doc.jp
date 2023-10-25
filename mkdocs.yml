@@ -49,7 +49,9 @@ nav:
   - 'Tool Setup': 
     - 'Yomichan': 'tool-setup/yomichan.md'
     - 'Sentence Mining': 'tool-setup/mining.md'
-  - 'Resources': 'resources/resources.md'
+  - 'Resources':
+    - 'Currently Using': 'resources/currently-using.md'
+    - 'Not Using Currently': 'resources/not-using.md'
   - 'Study Plan': 'plan/study-plan.md'
 theme:
   name: material

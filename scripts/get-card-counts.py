@@ -1,31 +1,28 @@
-print('What is the value for new?')
+import json
+import urllib.request
 
-new_cards_count = input()
+def request(action, **params):
+    return {'action': action, 'params': params, 'version': 6}
 
-print('What is the value for learning?')
+def invoke(action, **params):
+    requestJson = json.dumps(request(action, **params)).encode('utf-8')
+    response = json.load(urllib.request.urlopen(urllib.request.Request('http://127.0.0.1:8765', requestJson)))
+    if len(response) != 2:
+        raise Exception('response has an unexpected number of fields')
+    if 'error' not in response:
+        raise Exception('response is missing required error field')
+    if 'result' not in response:
+        raise Exception('response is missing required result field')
+    if response['error'] is not None:
+        raise Exception(response['error'])
+    return response['result']
 
-learning_cards_count = input()
+decks = [deck for deck in invoke('deckNames') if deck != 'Default']
 
-print('What is the value for re-learning?')
+for deck in decks:
+  test = invoke('getNumCardsReviewedToday')
+  print(test)
 
-re_learing_cards_count = input()
-
-print('What is the value for young?')
-
-young_cards_amount = input()
-
-print('What is the value for mature?')
-
-mature_cards_amount = input()
-
-print('What is the value for suspended?')
-
-suspended_cards_amount = input()
-
-print('What is the value for buried?')
-
-buried_cards_amount = input()
-
-total_learned_cards_amount = int(young_cards_amount) + int(mature_cards_amount)
-
-print(f'**{total_learned_cards_amount}** Vocabulary words known with **{new_cards_count}** new cards remaining: On track to finish all new cards on **_November 28th_** doing 15 new cards a day. Then I\'ll start Tango N4 with the same new card amount.')
+# invoke('createDeck', deck='test1')
+# result = invoke('deckNames')
+# print('got list of decks: {}'.format(result))

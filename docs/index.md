@@ -8,9 +8,7 @@ At some point, I do plan on scripting this out. But for now, I'll just update it
 
 #### Tango N5 as of _10/27/2023_ 
 
-{{ card_counts_message() }}
-
-**698** Vocabulary words known with 473 new cards remaining: On track to finish all new cards on **_November 28th_** doing 15 new cards a day. Then I'll start Tango N4 with the same new card amount.
+{{ card_counts_message() }}: On track to finish all new cards on **_November 28th_** doing 15 new cards a day. Then I'll start Tango N4 with the same new card amount.
 
 ![Card Counts](./assets/anki-stats/card-counts.png){ align=center }
 

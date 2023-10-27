@@ -12,3 +12,7 @@ def define_env(env):
   @env.macro
   def card_counts():
     return
+  
+
+def getCards():
+  print()

@@ -17,6 +17,8 @@ def invoke(action, **params):
         raise Exception(response['error'])
     return response['result']
 
+# deck:TheMoeWay_Tango_N5
+
 def getDecks():
     decks = invoke('deckNames')
     translate_table = str.maketrans({' ': '_', '_': ' '})
@@ -40,47 +42,15 @@ def getCards():
     
     return cards_list
 
-def getCardsInfo():
-    anki_cards = getCards()
-    cards_info = invoke('cardsInfo', cards=anki_cards)
+def calculate(thing):
+    for thing in cardLIst:
+        print(thing[0])
 
-    new_cards = []
-    young_cards = []
-    matured_cards = []
-    
-    for card in cards_info:
-        card_interval = card['interval']
+def test():
+    decks = getDecks()
+    cardLIst = getCards()
 
-        if int(card_interval) >= 21:
-            matured_cards.append(card_interval)
-        elif int(card_interval) < 21 and int(card_interval) != 0:
-            young_cards.append(card_interval)
-        elif int(card_interval) == 0:
-            new_cards.append(card_interval)
-    
-    return { 'new_cards': len(new_cards), 'young_cards': len(young_cards), 'mature_cards': len(matured_cards)}
+    for thing in cardLIst:
+        print(thing[0])
 
-def define_env(env):
-  """
-    This is the hook for defining variables, macros and filters
-
-    - variables: the dictionary that contains the environment variables
-    - macro: a decorator function, to declare a macro.
-    - filter: a function with one of more arguments,
-        used to perform a transformation
-  """
-
-  @env.macro
-  def card_counts_message():
-    cards_info = getCardsInfo()
-
-    new_cards = cards_info["new_cards"]
-    young_cards = cards_info["young_cards"]
-    matured_cards = cards_info["mature_cards"]
-    cards_known_total = int(young_cards) + int(matured_cards)
-
-    return f'**{cards_known_total}** vocabulary words known with {new_cards} new cards remaining'
-  
-
-
-  
+test()

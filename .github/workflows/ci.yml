@@ -14,7 +14,10 @@ jobs:
       - uses: actions/setup-python@v4
         with:
           python-version: 3.x
-      - run: pip install mkdocs-material
+      - name: Install mkdocs-material
+        run: pip install mkdocs-material
+      - name: Install mkdocs-macros-plugin
+        run: pip install mkdocs-macros-plugin
       - name: Build docs
         run: mkdocs build
       - name: Publish docs

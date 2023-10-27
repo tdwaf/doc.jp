@@ -1,0 +1,20 @@
+.md-typeset {
+  font-family: 'Noto Sans JP', sans-serif;
+  src: url(https://fonts.googleapis.com/css2?family=BIZ+UDMincho&family=Noto+Sans+JP:wght@100&display=swap);
+}
+
+.md-typeset h1 {
+  font-weight: 400;
+}
+
+.md-typeset h2 {
+  font-weight: 500;
+}
+
+.md-typeset h3 {
+  font-weight: 300;
+}
+
+.md-typeset .admonition>* {
+  font-size: 112%;
+}

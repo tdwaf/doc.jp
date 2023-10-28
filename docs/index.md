@@ -1,16 +1,18 @@
 # doc.jp Landing Page
 
-## Anki Stats
+## Anki Deck Card Counts
 
-At some point, I do plan on scripting this out. But for now, I'll just update it daily.
+### Tango N5 as of {{ get_current_date() }}
 
-### Card Counts
+{{ n5_card_counts() }}: On track to finish all new cards on **_November 28th_** doing 15 new cards a day. Then I'll start Tango N4 with the same new card amount.
 
-#### Tango N5 as of _10/27/2023_ 
+![Card Counts](./assets/anki-stats/n5-card-counts.png){ align=center }
 
-{{ card_counts_message() }}: On track to finish all new cards on **_November 28th_** doing 15 new cards a day. Then I'll start Tango N4 with the same new card amount.
+### Tango N4 as of {{ get_current_date() }}
 
-![Card Counts](./assets/anki-stats/card-counts.png){ align=center }
+{{ n4_card_counts() }}: Haven't started this deck yet.
+
+![Card Counts](./assets/anki-stats/n4-card-counts.png){ align=center }
 
 ## Grammar Learning
 

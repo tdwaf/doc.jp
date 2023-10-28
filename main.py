@@ -1,3 +1,4 @@
+from datetime import date
 import json
 import urllib.request
 
@@ -17,28 +18,76 @@ def invoke(action, **params):
         raise Exception(response['error'])
     return response['result']
 
+def getDecks():
+    decks = invoke('deckNames')
+    translate_table = str.maketrans({' ': '_', '_': ' '})
+    new_decks_list = []
+
+    for deck in decks:
+        translate_table = str.maketrans({' ': '_', '_': ' '})
+        new_decks_list.append(deck.translate(translate_table))
+    
+    return new_decks_list
+
 def getCards():
-    return invoke('findCards', query='deck:current')
+    decks = getDecks()
+    cards_list = []
 
-def getCardsInfo():
+    for deck_name in decks:
+        deck_cards = invoke('findCards', query=f'deck:{deck_name}')
+        deck_dict = { 'deck_name': deck_name, 'deck_cards' : deck_cards }
+        
+        cards_list.append(deck_dict)
+    
+    return cards_list
+
+def getCardsInfo(deck_name):
     anki_cards = getCards()
-    cards_info = invoke('cardsInfo', cards=anki_cards)
+    deck_cards = next((deck['deck_cards'] for deck in anki_cards if deck['deck_name'] == deck_name), None)
 
-    new_cards = []
-    young_cards = []
-    matured_cards = []
-    
-    for card in cards_info:
-        card_interval = card['interval']
+    return invoke('cardsInfo', cards=deck_cards)
 
-        if int(card_interval) >= 21:
-            matured_cards.append(card_interval)
-        elif int(card_interval) < 21 and int(card_interval) != 0:
-            young_cards.append(card_interval)
-        elif int(card_interval) == 0:
-            new_cards.append(card_interval)
+def calculate_card_info():
+    tango_n5_card_info = getCardsInfo("TheMoeWay_Tango_N5")
+    tango_n4_card_info = getCardsInfo("TheMoeWay_Tango_N4")
+
+    tango_n5_new_cards = []
+    tango_n5_young_cards = []
+    tango_n5_matured_cards = []
+
+    tango_n4_new_cards = []
+    tango_n4_young_cards = []
+    tango_n4_matured_cards = []
+
+
+    for n5_card in tango_n5_card_info:
+        n5_card_interval = n5_card['interval']
+
+        if int(n5_card_interval) >= 21:
+            tango_n5_matured_cards.append(n5_card_interval)
+        elif int(n5_card_interval) < 21 and int(n5_card_interval) != 0:
+            tango_n5_young_cards.append(n5_card_interval)
+        elif int(n5_card_interval) == 0:
+            tango_n5_new_cards.append(n5_card_interval)
     
-    return { 'new_cards': len(new_cards), 'young_cards': len(young_cards), 'mature_cards': len(matured_cards)}
+    for n4_card in tango_n4_card_info:
+        n4_card_interval = n4_card['interval']
+
+        if int(n4_card_interval) >= 21:
+            tango_n4_matured_cards.append(n4_card_interval)
+        elif int(n4_card_interval) < 21 and int(n4_card_interval) != 0:
+            tango_n4_young_cards.append(n4_card_interval)
+        elif int(n4_card_interval) == 0:
+            tango_n4_new_cards.append(n4_card_interval)
+    
+    return {
+        'tango_n5_new_cards': len(tango_n5_new_cards), 
+        'tango_n5_young_cards':  len(tango_n5_young_cards), 
+        'tango_n5_matured_cards': len(tango_n5_matured_cards), 
+        'tango_n4_new_cards': len(tango_n4_new_cards), 
+        'tango_n4_young_cards': len(tango_n4_young_cards),
+        'tango_n4_matured_cards': len(tango_n4_matured_cards)
+    }
 
 def define_env(env):
   """
@@ -51,15 +100,31 @@ def define_env(env):
   """
 
   @env.macro
-  def card_counts_message():
-    cards_info = getCardsInfo()
+  def n5_card_counts():
+    cards_info = calculate_card_info()
 
-    new_cards = cards_info["new_cards"]
-    young_cards = cards_info["young_cards"]
-    matured_cards = cards_info["mature_cards"]
+    new_cards = cards_info["tango_n5_new_cards"]
+    young_cards = cards_info["tango_n5_young_cards"]
+    matured_cards = cards_info["tango_n5_matured_cards"]
     cards_known_total = int(young_cards) + int(matured_cards)
 
-    return f'**{cards_known_total}** vocabulary words known with {new_cards} new cards remaining'
+    return f'**{cards_known_total}** vocabulary words known with **{new_cards}** new cards remaining'
+  
+  @env.macro
+  def n4_card_counts():
+    cards_info = calculate_card_info()
+
+    new_cards = cards_info["tango_n4_new_cards"]
+    young_cards = cards_info["tango_n4_young_cards"]
+    matured_cards = cards_info["tango_n4_matured_cards"]
+    cards_known_total = int(young_cards) + int(matured_cards)
+
+    return f'**{cards_known_total}** vocabulary words known with **{new_cards}** new cards remaining'
+  
+  @env.macro
+  def get_current_date():
+    return date.today().strftime("%m/%d/%y")
+
 
 
   

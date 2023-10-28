@@ -109,3 +109,7 @@ plugins:
   - search
   - macros
 extra_css: [ css/styles.css ]
+watch:
+  - docs/
+  - mkdocs.yml
+  - main.py

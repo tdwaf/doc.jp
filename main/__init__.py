@@ -1,5 +1,5 @@
 from main.anki_stats.anki_cards import AnkiCards
-from datetime import date
+from datetime import date, datetime, timedelta
 
 def define_env(env):
   """
@@ -26,3 +26,17 @@ def define_env(env):
   @env.macro
   def get_current_date():
     return date.today().strftime("%m/%d/%y")
+  
+  @env.macro
+  def get_new_cards_finish_date(new_cards_amount_daily):
+    tango_n5_deck = AnkiCards('TheMoeWay_Tango_N5')
+    new_cards = tango_n5_deck.get_new_cards()
+
+    days_to_finish = 0
+    while new_cards > 0:
+      new_cards -= new_cards_amount_daily
+      days_to_finish += 1
+
+    date_finished_with_new_cards = datetime.strftime(datetime.today() + timedelta(days=days_to_finish), "%m/%d/%y")
+
+    return date_finished_with_new_cards

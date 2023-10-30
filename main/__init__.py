@@ -1,4 +1,4 @@
-from .anki_stats.AnkiCards import AnkiCards
+from main.anki_stats.anki_cards import AnkiCards
 from datetime import date
 
 def define_env(env):

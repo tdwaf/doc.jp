@@ -18,7 +18,7 @@
 
 ### Things I need to work on currently
 
-For now, I will mostly focus on cramming my grammar reviews and all I've learned. In a few days, I'll learn some new stuff
+- Converting adjectives to nouns
 
 ### JFZ Book 3 Lesson Page Numbers (No Directory on kindle)
 

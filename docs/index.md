@@ -4,7 +4,9 @@
 
 ### Tango N5 as of {{ get_current_date() }}
 
-{{ n5_card_counts() }}: On track to finish all new cards on **_November 28th_** doing 15 new cards a day. Then I'll start Tango N4 with the same new card amount.
+{{ n5_card_counts() }} 
+
+- On track to finish all new cards on **{{ get_new_cards_finish_date(15) }}** doing 15 new cards a day.
 
 ![Card Counts](./assets/anki-stats/n5-card-counts.png){ align=center }
 

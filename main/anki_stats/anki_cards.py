@@ -1,4 +1,4 @@
-from anki_stats.util import invoke_anki_request
+from main.anki_stats.anki_util import invoke_anki_request
 
 class AnkiCards:
   def __init__(self, deck_name):
@@ -6,7 +6,7 @@ class AnkiCards:
 
   def __get_cards(self):
     return invoke_anki_request('findCards', query=f'deck:{self.deck_name}')
-  
+
   def __get_card_statistics(self):
     anki_cards = self.__get_cards()
     return invoke_anki_request('cardsInfo', cards=anki_cards)

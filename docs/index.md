@@ -6,7 +6,7 @@
 
 {{ n5_card_counts() }} 
 
-- On track to finish all new cards on **{{ get_new_cards_finish_date(15) }}** doing 15 new cards a day.
+- On track to finish all new cards on **{{ get_new_cards_finish_date() }}** doing {{ get_cards_per_day()['N5_Cards_Per_Day'] }} new cards a day.
 
 ![Card Counts](./assets/anki-stats/n5-card-counts.png){ align=center }
 

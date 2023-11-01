@@ -16,3 +16,12 @@ def invoke_anki_request(action, **params):
     if response['error'] is not None:
         raise Exception(response['error'])
     return response['result']
+
+def get_new_cards_per_day_amount(deck_name):
+    deck = deck_name.replace("_", " ")
+
+    deck_info = invoke_anki_request('getDeckConfig', deck=deck)
+
+    print(deck_info['new']['perDay'])
+
+get_new_cards_per_day_amount('TheMoeWay_Tango_N5')

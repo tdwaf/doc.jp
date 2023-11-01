@@ -28,15 +28,22 @@ def define_env(env):
     return date.today().strftime("%m/%d/%y")
   
   @env.macro
-  def get_new_cards_finish_date(new_cards_amount_daily):
+  def get_new_cards_finish_date():
     tango_n5_deck = AnkiCards('TheMoeWay_Tango_N5')
     new_cards = tango_n5_deck.get_new_cards()
 
     days_to_finish = 0
     while new_cards > 0:
-      new_cards -= new_cards_amount_daily
+      new_cards -= tango_n5_deck.get_new_cards_per_day_amount()
       days_to_finish += 1
 
     date_finished_with_new_cards = datetime.strftime(datetime.today() + timedelta(days=days_to_finish), "%m/%d/%y")
 
     return date_finished_with_new_cards
+
+  @env.macro
+  def get_cards_per_day():
+    tango_n5_deck = AnkiCards('TheMoeWay_Tango_N5')
+    tango_n4_deck = AnkiCards('TheMoeWay_Tango_N4')
+
+    return { 'N5_Cards_Per_Day': tango_n5_deck.get_new_cards_per_day_amount(), 'N4_Cards_Per_Day': tango_n4_deck.get_new_cards_per_day_amount()  }

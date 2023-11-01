@@ -39,5 +39,11 @@ class AnkiCards:
         new_cards.append(card_interval)
 
     return int(len(new_cards))
+  
+  def get_new_cards_per_day_amount(self):
+    deck_name = self.deck_name.replace("_", " ")
+    deck_info = invoke_anki_request('getDeckConfig', deck=deck_name)
+
+    return deck_info['new']['perDay']
 
 

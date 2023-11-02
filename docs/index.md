@@ -20,7 +20,7 @@
 
 ### Things I need to work on currently
 
-- Converting adjectives to nouns
+
 
 ### JFZ Book 3 Lesson Page Numbers (No Directory on kindle)
 

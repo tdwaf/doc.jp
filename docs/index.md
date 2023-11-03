@@ -6,7 +6,7 @@
 
 {{ n5_card_counts() }} 
 
-- On track to finish all new cards on **{{ get_new_cards_finish_date() }}** doing {{ get_cards_per_day()['N5_Cards_Per_Day'] }} new cards a day.
+- On track to finish all new cards on **{{ get_new_cards_finish_date() }}** doing **{{ get_cards_per_day()['N5_Cards_Per_Day'] }}** new cards a day.
 
 ![Card Counts](./assets/anki-stats/n5-card-counts.png){ align=center }
 
@@ -20,7 +20,11 @@
 
 ### Things I need to work on currently
 
-
+- difference between 押, 探, 換, and 撮. I see the 扌 radical and immediately think they're the same word lol
+    - 押す: push or press
+    - 探す: to search for; to look for; to hunt for; to seek
+    - 換える: to replace; to exchange; to interchange; to substitute
+    - 撮る: to take (a photograph); to record (audio or video); to file; to shoot
 
 ### JFZ Book 3 Lesson Page Numbers (No Directory on kindle)
 

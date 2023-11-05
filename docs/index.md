@@ -20,6 +20,10 @@
 
 ### Things I need to work on currently
 
+#### Grammar
+
+#### Vocab
+
 - difference between 押, 探, 換, and 撮. I see the 扌 radical and immediately think they're the same word lol
     - 押す: push or press
     - 探す: to search for; to look for; to hunt for; to seek

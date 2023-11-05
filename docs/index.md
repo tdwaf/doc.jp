@@ -22,6 +22,8 @@
 
 #### Grammar
 
+- はじめる
+
 #### Vocab
 
 - difference between 押, 探, 換, and 撮. I see the 扌 radical and immediately think they're the same word lol

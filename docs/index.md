@@ -22,15 +22,13 @@
 
 #### Grammar
 
+I need to review some grammar that I previously learned but am having trouble remembering. I should drill these topics:
+
 - はじめる
-
-#### Vocab
-
-- difference between 押, 探, 換, and 撮. I see the 扌 radical and immediately think they're the same word lol
-    - 押す: push or press
-    - 探す: to search for; to look for; to hunt for; to seek
-    - 換える: to replace; to exchange; to interchange; to substitute
-    - 撮る: to take (a photograph); to record (audio or video); to file; to shoot
+- より～の方が
+- う-Verb (Negative)
+- る-Verb (Negative)
+- ～て (Conjunction)
 
 ### JFZ Book 3 Lesson Page Numbers (No Directory on kindle)
 

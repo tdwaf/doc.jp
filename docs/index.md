@@ -29,6 +29,8 @@ I need to review some grammar that I previously learned but am having trouble re
 - う-Verb (Negative)
 - る-Verb (Negative)
 - ～て (Conjunction)
+- いじょう (以上)
+- いか
 
 ### JFZ Book 3 Lesson Page Numbers (No Directory on kindle)
 

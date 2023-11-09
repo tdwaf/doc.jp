@@ -26,8 +26,6 @@ I need to review some grammar that I previously learned but am having trouble re
 
 - はじめる - To start, To begin to
 - より～の方が
-- う-Verb (Negative)
-- る-Verb (Negative)
 - ～て (Conjunction)
 - いじょう (以上)
 - いか

@@ -22,14 +22,10 @@
 
 #### Grammar
 
-I need to review some grammar that I previously learned but am having trouble remembering. I should drill these topics:
-
-- はじめる - To start, To begin to
-- より～の方が
-- ～て (Conjunction)
-- いじょう (以上)
-- いか
-- たい - want to
+- ~ている: is, Am, Are (~ing)
+- はじめる: to start; to begin
+- たい: want to do (I keep messing up the negative form)
+- と: quotation
 
 ### JFZ Book 3 Lesson Page Numbers (No Directory on kindle)
 

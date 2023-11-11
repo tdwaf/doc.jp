@@ -21,7 +21,7 @@ jobs:
         with:
           assignees: "tdwaf"
           labels: "todo, documentation"
-          title: "Update resources pages for " {{ steps.date.outputs.month }} {{ steps.date.outputs.year }}
+          title: "Update resources pages for ${{ steps.date.outputs.month }} ${{ steps.date.outputs.year }}"
           body: |
             ### What needs to be done
 

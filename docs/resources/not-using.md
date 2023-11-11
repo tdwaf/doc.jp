@@ -19,12 +19,18 @@
 - [Satori Reader](https://www.satorireader.com/): Graded reader (paid)
 
 - [NHK Easy News](https://www3.nhk.or.jp/news/easy/): Essentially a graded reader but with Japanese news
+
+### Browser Extensions
+
+- [Asbplayer](https://github.com/killergerbah/asbplayer): Load local subtitle files to video streaming sites.
     
 ### Dictionaries
     
 - [jpdb](https://jpdb.io/): Have pretty cool features. Also cool for generated Anki decks for anime, novels, etc. Essentially allowing you to skip sentence mining.
     
 ### TV / Movies
+
+- [Kitsunekko](https://kitsunekko.net/dirlist.php?dir=subtitles%2Fjapanese%2F): Probably the biggest collection of Japanese subtitles for anime. An absolute lifesaver for immersion.
     
 - [Super Native](https://supernative.tv/): Cool site that trains you to hear, read, and speak Japanese from TV and movies.
     

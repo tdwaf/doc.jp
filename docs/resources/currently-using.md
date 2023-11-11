@@ -17,10 +17,10 @@
 
 ### TV / Movies
 
-- [Kitsunekko](https://kitsunekko.net/dirlist.php?dir=subtitles%2Fjapanese%2F): Probably the biggest collection of Japanese subtitles for anime. An absolute lifesaver for immersion.
+- [Aniwatch.to](https://aniwatch.to/): Anime streaming site (mostly use for anime that isn't on any streaming platforms like Crunchyroll, Hidive, Amazon, etc.)
+
+- [Aniwave.to](https://aniwave.to/): Anime streaming site (mostly use for anime that isn't on any streaming platforms like Crunchyroll, Hidive, Amazon, etc.)
 
 ### Browser Extensions
 
 - [Yomichan](https://foosoft.net/projects/yomichan/): Yomichan is a browser extension that allows you to look up Japanese words with both the meaning and the reading on web pages with ease.
-
-- [Asbplayer](https://github.com/killergerbah/asbplayer): Load local subtitle files to video streaming sites.

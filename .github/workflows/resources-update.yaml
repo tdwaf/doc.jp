@@ -1,0 +1,30 @@
+name: Monthly Resources Update Issue
+on:
+  schedule:
+    - cron: 0 0 1 * *
+
+jobs:
+  create_issue:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - name: Get current date
+        id: date
+        uses: Kaven-Universe/github-action-current-date-time@v1
+        with:
+          format: "YYYY_MMMM_DD HH_mm_ss_SSS"
+
+      - name: Create Resources Update Issue
+        uses: imjohnbo/issue-bot@v3
+        with:
+          assignees: "tdwaf"
+          labels: "todo, documentation"
+          title: "Update resources pages for {{ steps.date.outputs.month }} {{ steps.date.outputs.year }}"
+          body: |
+            ### What needs to be done
+
+            - [ ] Update currently using page
+            - [ ] Update not using page
+          pinned: false
+          close-previous: false

@@ -29,7 +29,6 @@
 - くれる: To give(me), To be given
 - もらう: To receive; to get; to obtain
 - だれか: Someone; somewhere; not anyone; not anywhere
-- たくさん: many; a lot of; plenty; enough
 - noun + まで: Until; till; to (but no further than)
 - verb + まで: Until (something) happens
 - だけ: Only; just

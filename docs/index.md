@@ -22,10 +22,6 @@
 
 #### Grammar
 
-- ~ている: is, Am, Are (~ing)
-- はじめる: to start; to begin
-- たい: want to do (I keep messing up the negative form)
-- と: quotation
 - くれる: To give(me), To be given
 - もらう: To receive; to get; to obtain
 - だれか: Someone; somewhere; not anyone; not anywhere

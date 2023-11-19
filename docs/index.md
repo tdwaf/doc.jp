@@ -22,14 +22,9 @@
 
 #### Grammar
 
-- くれる: To give(me), To be given
 - もらう: To receive; to get; to obtain
 - だれか: Someone; somewhere; not anyone; not anywhere
-- noun + まで: Until; till; to (but no further than)
-- verb + まで: Until (something) happens
 - だけ: Only; just
-- けど: But; however
-- る-verb (past)
 - う-verb (past)
 
 ### JFZ Book 3 Lesson Page Numbers (No Directory on kindle)

@@ -22,10 +22,8 @@
 
 #### Grammar
 
-- もらう: To receive; to get; to obtain
 - だれか: Someone; somewhere; not anyone; not anywhere
 - だけ: Only; just
-- う-verb (past)
 
 ### JFZ Book 3 Lesson Page Numbers (No Directory on kindle)
 

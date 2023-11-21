@@ -22,6 +22,7 @@
 
 #### Grammar
 
+- もらう: To receive, To get, To obtain
 - だれか: Someone; somewhere; not anyone; not anywhere
 - だけ: Only; just
 

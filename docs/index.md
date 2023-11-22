@@ -25,6 +25,7 @@
 - もらう: To receive, To get, To obtain
 - だれか: Someone; somewhere; not anyone; not anywhere
 - だけ: Only; just
+- はじめる: to start; to begin to
 
 ### JFZ Book 3 Lesson Page Numbers (No Directory on kindle)
 

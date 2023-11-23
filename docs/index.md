@@ -39,7 +39,7 @@
     - Starts: 53
     - Workbook: 63
 - Lesson 4:
-    - Starts: 75
+    - Starts: 75すみません。今日はちょっと
     - Workbook: 84
 - Lesson 5:
     - Starts: 97

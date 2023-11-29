@@ -26,6 +26,7 @@
 - だれか: Someone; somewhere; not anyone; not anywhere
 - だけ: Only; just
 - はじめる: to start; to begin to
+- くれる: to give; to be given
 
 ### JFZ Book 3 Lesson Page Numbers (No Directory on kindle)
 

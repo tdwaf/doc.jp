@@ -69,3 +69,7 @@
 - Lesson 13:
     - Starts: 257
     - Workbook: 266
+
+## test area
+
+{{ get_stats_html() }}

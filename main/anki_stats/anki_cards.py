@@ -45,5 +45,9 @@ class AnkiCards:
     deck_info = invoke_anki_request('getDeckConfig', deck=deck_name)
 
     return deck_info['new']['perDay']
+  
+  def get_deck_stats(self):
+    deck_name = self.deck_name.replace("_", " ")
+    return invoke_anki_request('getDeckStats', decks=deck_name)
 
 

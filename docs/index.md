@@ -27,6 +27,8 @@
 - だけ: Only; just
 - はじめる: to start; to begin to
 - くれる: to give; to be given
+- から: because, since, From
+- う-Verb (Negative)
 
 ### JFZ Book 3 Lesson Page Numbers (No Directory on kindle)
 

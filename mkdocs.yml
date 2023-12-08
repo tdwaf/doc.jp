@@ -1,8 +1,10 @@
 site_name: doc.jp
-site_author: tyler
+site_author: tdwaf
 nav:
   - Home: 'index.md'
+  - 'Anki Stats': 'stats/stats.md'
   - 'Grammar':
+    - 'Home': 'grammar/home.md'
     - 'Particles':
       - 'grammar/particles/を.md'
       - 'grammar/particles/と.md'

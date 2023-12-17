@@ -12,7 +12,7 @@ def define_env(env):
   """
   
   @env.macro
-  def tango_n5_card_stats():
+  def tango_n5_card_stats() -> dict:
     tango_n5_deck = AnkiCards('TheMoeWay_Tango_N5')
 
     new_cards = tango_n5_deck.get_new_cards()
@@ -23,7 +23,7 @@ def define_env(env):
     return {'new_cards': new_cards, 'young_cards': young_cards, 'mature_cards': mature_cards, 'total_cards_known': total_cards_known}
   
   @env.macro
-  def tango_n4_card_stats():
+  def tango_n4_card_stats() -> dict:
     tango_n4_deck = AnkiCards('TheMoeWay_Tango_N4')
 
     new_cards = tango_n4_deck.get_new_cards()
@@ -38,7 +38,7 @@ def define_env(env):
     return date.today().strftime("%m/%d/%y")
   
   @env.macro
-  def get_new_cards_finish_date():
+  def get_new_cards_finish_date() -> str:
     tango_n5_deck = AnkiCards('TheMoeWay_Tango_N5')
     new_cards = tango_n5_deck.get_new_cards()
 
@@ -52,7 +52,7 @@ def define_env(env):
     return date_finished_with_new_cards
 
   @env.macro
-  def get_cards_per_day():
+  def get_cards_per_day() -> dict:
     tango_n5_deck = AnkiCards('TheMoeWay_Tango_N5')
     tango_n4_deck = AnkiCards('TheMoeWay_Tango_N4')
 

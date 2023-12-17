@@ -4,14 +4,14 @@ class AnkiCards:
   def __init__(self, deck_name):
     self.deck_name = deck_name
 
-  def __get_cards(self):
+  def __get_cards(self) -> type:
     return invoke_anki_request('findCards', query=f'deck:{self.deck_name}')
 
-  def __get_card_statistics(self):
+  def __get_card_statistics(self) -> type:
     anki_cards = self.__get_cards()
     return invoke_anki_request('cardsInfo', cards=anki_cards)
 
-  def card_interval_stats(self):
+  def card_interval_stats(self) -> dict:
     card_stats = self.__get_card_statistics()
 
     mature_cards = []
@@ -29,7 +29,7 @@ class AnkiCards:
 
     return { 'young_cards': int(len(young_cards)), 'mature_cards': int(len(mature_cards)), 'total_cards_known': total_cards_known}
     
-  def get_new_cards(self):
+  def get_new_cards(self) -> int:
     card_stats = self.__get_card_statistics()
 
     new_cards = []
@@ -42,7 +42,7 @@ class AnkiCards:
 
     return int(len(new_cards))
   
-  def get_new_cards_per_day_amount(self):
+  def get_new_cards_per_day_amount(self) -> type:
     deck_name = self.deck_name.replace("_", " ")
     deck_info = invoke_anki_request('getDeckConfig', deck=deck_name)
 

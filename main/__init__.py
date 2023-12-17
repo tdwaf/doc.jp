@@ -10,25 +10,35 @@ def define_env(env):
     - filter: a function with one of more arguments,
         used to perform a transformation
   """
-
-  @env.macro
-  def n5_card_counts():
-    tango_n5_deck = AnkiCards('TheMoeWay_Tango_N5')
-
-    return f'**{tango_n5_deck.get_total_known_cards()}** vocabulary words known with **{tango_n5_deck.get_new_cards()}** new cards remaining'
   
   @env.macro
-  def n4_card_counts():
+  def tango_n5_card_stats() -> dict:
+    tango_n5_deck = AnkiCards('TheMoeWay_Tango_N5')
+
+    new_cards = tango_n5_deck.get_new_cards()
+    young_cards = tango_n5_deck.card_interval_stats()["young_cards"]
+    mature_cards = tango_n5_deck.card_interval_stats()["mature_cards"]
+    total_cards_known = tango_n5_deck.card_interval_stats()["total_cards_known"]
+
+    return {'new_cards': new_cards, 'young_cards': young_cards, 'mature_cards': mature_cards, 'total_cards_known': total_cards_known}
+  
+  @env.macro
+  def tango_n4_card_stats() -> dict:
     tango_n4_deck = AnkiCards('TheMoeWay_Tango_N4')
 
-    return f'**{tango_n4_deck.get_total_known_cards()}** vocabulary words known with **{tango_n4_deck.get_new_cards()}** new cards remaining'
+    new_cards = tango_n4_deck.get_new_cards()
+    young_cards = tango_n4_deck.card_interval_stats()["young_cards"]
+    mature_cards = tango_n4_deck.card_interval_stats()["mature_cards"]
+    total_cards_known = tango_n4_deck.card_interval_stats()["total_cards_known"]
+
+    return {'new_cards': new_cards, 'young_cards': young_cards, 'mature_cards': mature_cards, 'total_cards_known': total_cards_known}
   
   @env.macro
   def get_current_date():
     return date.today().strftime("%m/%d/%y")
   
   @env.macro
-  def get_new_cards_finish_date():
+  def get_new_cards_finish_date() -> str:
     tango_n5_deck = AnkiCards('TheMoeWay_Tango_N5')
     new_cards = tango_n5_deck.get_new_cards()
 
@@ -42,8 +52,9 @@ def define_env(env):
     return date_finished_with_new_cards
 
   @env.macro
-  def get_cards_per_day():
+  def get_cards_per_day() -> dict:
     tango_n5_deck = AnkiCards('TheMoeWay_Tango_N5')
     tango_n4_deck = AnkiCards('TheMoeWay_Tango_N4')
 
     return { 'N5_Cards_Per_Day': tango_n5_deck.get_new_cards_per_day_amount(), 'N4_Cards_Per_Day': tango_n4_deck.get_new_cards_per_day_amount()  }
+  

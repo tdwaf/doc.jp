@@ -21,6 +21,8 @@ def define_env(env):
 
     if deck_choice == 'tango-n5':
       deck = tango_n5_deck
+    elif deck_choice == 'tango-n4':
+      deck = tango_n4_deck
 
       card_stats = deck.get_card_statistics()
 

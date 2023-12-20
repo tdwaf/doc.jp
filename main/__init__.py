@@ -1,4 +1,5 @@
 from main.anki_stats.anki_cards import AnkiCards
+from main.anki_stats.anki_util import invoke_anki_request
 from datetime import date, datetime, timedelta
 
 def define_env(env):
@@ -12,26 +13,30 @@ def define_env(env):
   """
   
   @env.macro
-  def tango_n5_card_stats() -> dict:
+  def get_card_interval_stats(deck_choice):
     tango_n5_deck = AnkiCards('TheMoeWay_Tango_N5')
-
-    new_cards = tango_n5_deck.get_new_cards()
-    young_cards = tango_n5_deck.card_interval_stats()["young_cards"]
-    mature_cards = tango_n5_deck.card_interval_stats()["mature_cards"]
-    total_cards_known = tango_n5_deck.card_interval_stats()["total_cards_known"]
-
-    return {'new_cards': new_cards, 'young_cards': young_cards, 'mature_cards': mature_cards, 'total_cards_known': total_cards_known}
-  
-  @env.macro
-  def tango_n4_card_stats() -> dict:
     tango_n4_deck = AnkiCards('TheMoeWay_Tango_N4')
 
-    new_cards = tango_n4_deck.get_new_cards()
-    young_cards = tango_n4_deck.card_interval_stats()["young_cards"]
-    mature_cards = tango_n4_deck.card_interval_stats()["mature_cards"]
-    total_cards_known = tango_n4_deck.card_interval_stats()["total_cards_known"]
+    deck = AnkiCards('')
 
-    return {'new_cards': new_cards, 'young_cards': young_cards, 'mature_cards': mature_cards, 'total_cards_known': total_cards_known}
+    if deck_choice == 'tango-n5':
+      deck = tango_n5_deck
+
+      card_stats = deck.get_card_statistics()
+
+    new_cards = [int(card['interval']) for card in card_stats if card['interval'] == 0]
+    young_cards = [int(card['interval']) for card in card_stats if card['interval'] < 21 and card['interval'] != 0]
+    mature_cards = [int(card['interval']) for card in card_stats if card['interval'] >= 21]
+
+    total_cards_known = 0
+    if len(new_cards) == 0:
+      stats = invoke_anki_request('getDeckStats', decks=[deck.get_deck_name()])
+      deck_id = list(stats.keys())[0]
+      total_cards_known = stats[str(deck_id)]['total_in_deck']
+    else:
+      total_cards_known = len(young_cards) + len(mature_cards)
+
+    return {'new': len(new_cards), 'young': len(young_cards), 'mature': len(mature_cards), 'total_cards': total_cards_known }
   
   @env.macro
   def get_current_date():

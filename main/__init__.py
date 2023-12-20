@@ -24,7 +24,7 @@ def define_env(env):
     elif deck_choice == 'tango-n4':
       deck = tango_n4_deck
 
-      card_stats = deck.get_card_statistics()
+    card_stats = deck.get_card_statistics()
 
     new_cards = [int(card['interval']) for card in card_stats if card['interval'] == 0]
     young_cards = [int(card['interval']) for card in card_stats if card['interval'] < 21 and card['interval'] != 0]

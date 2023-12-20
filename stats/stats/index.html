@@ -87,7 +87,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#macro-rendering-error" class="md-skip">
+        <a href="#anki-stats" class="md-skip">
           Skip to content
         </a>
       
@@ -407,6 +407,17 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Anki Stats
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -416,6 +427,52 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#anki-deck-card-counts" class="md-nav__link">
+    Anki Deck Card Counts
+  </a>
+  
+    <nav class="md-nav" aria-label="Anki Deck Card Counts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tango-n5-as-of-122023" class="md-nav__link">
+    Tango N5 as of 12/20/23
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tango-n4-as-of-122023" class="md-nav__link">
+    Tango N4 as of 12/20/23
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1857,6 +1914,41 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#anki-deck-card-counts" class="md-nav__link">
+    Anki Deck Card Counts
+  </a>
+  
+    <nav class="md-nav" aria-label="Anki Deck Card Counts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tango-n5-as-of-122023" class="md-nav__link">
+    Tango N5 as of 12/20/23
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tango-n4-as-of-122023" class="md-nav__link">
+    Tango N4 as of 12/20/23
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1870,23 +1962,22 @@
                   
 
 
-<h1 id="macro-rendering-error"><em>Macro Rendering Error</em><a class="headerlink" href="#macro-rendering-error" title="Permanent link">&para;</a></h1>
-<p><em>File</em>: <code>stats\stats.md</code></p>
-<p><em>UnboundLocalError</em>: cannot access local variable 'card_stats' where it is not associated with a value</p>
-<div class="highlight"><pre><span></span><code>Traceback (most recent call last):
-  File &quot;C:\Users\Tyler\AppData\Local\Programs\Python\Python311\Lib\site-packages\mkdocs_macros\plugin.py&quot;, line 527, in render
-    return md_template.render(**page_variables)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File &quot;C:\Users\Tyler\AppData\Local\Programs\Python\Python311\Lib\site-packages\jinja2\environment.py&quot;, line 1301, in render
-    self.environment.handle_exception()
-  File &quot;C:\Users\Tyler\AppData\Local\Programs\Python\Python311\Lib\site-packages\jinja2\environment.py&quot;, line 936, in handle_exception
-    raise rewrite_traceback_stack(source=source)
-  File &quot;&lt;template&gt;&quot;, line 7, in top-level template code
-  File &quot;C:\appdev\doc.jp\main\__init__.py&quot;, line 29, in get_card_interval_stats
-    new_cards = [int(card[&#39;interval&#39;]) for card in card_stats if card[&#39;interval&#39;] == 0]
-                                                   ^^^^^^^^^^
-UnboundLocalError: cannot access local variable &#39;card_stats&#39; where it is not associated with a value
-</code></pre></div>
+<h1 id="anki-stats">Anki Stats<a class="headerlink" href="#anki-stats" title="Permanent link">&para;</a></h1>
+<h2 id="anki-deck-card-counts">Anki Deck Card Counts<a class="headerlink" href="#anki-deck-card-counts" title="Permanent link">&para;</a></h2>
+<h3 id="tango-n5-as-of-122023">Tango N5 as of 12/20/23<a class="headerlink" href="#tango-n5-as-of-122023" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Young Cards</strong>: 388</li>
+<li><strong>Mature Cards</strong>: 783</li>
+<li><strong>Total Cards Known</strong>: 1171</li>
+</ul>
+<p><img align="center" alt="Card Counts" src="../../assets/anki-stats/n5-card-counts.png" /></p>
+<h3 id="tango-n4-as-of-122023">Tango N4 as of 12/20/23<a class="headerlink" href="#tango-n4-as-of-122023" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>New Cards</strong>: 917</li>
+<li><strong>Young Cards</strong>: 0</li>
+<li><strong>Mature Cards</strong>: 0</li>
+</ul>
+<p><img align="center" alt="Card Counts" src="../../assets/anki-stats/n4-card-counts.png" /></p>
 
 
 

@@ -8,8 +8,7 @@ Here is the page where I keep track of the grammar I'm learning currently.
 
 Working through the rest of N5 grammar as I finished Tango N5. As I wasn't fully focusing on grammar, I forgot some of the grammar points. Here are the ones I need to work on (including new ones as I progress in the N5 grammar):
 
-__None at the moment__
-
+__None at this time__
 
 ### Somewhat good, but not super confident
 

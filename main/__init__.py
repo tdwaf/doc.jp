@@ -64,4 +64,3 @@ def define_env(env):
     tango_n4_deck = AnkiCards('TheMoeWay_Tango_N4')
 
     return { 'N5_Cards_Per_Day': tango_n5_deck.get_new_cards_per_day_amount(), 'N4_Cards_Per_Day': tango_n4_deck.get_new_cards_per_day_amount()  }
-  

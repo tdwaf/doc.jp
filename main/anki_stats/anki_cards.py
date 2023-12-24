@@ -9,7 +9,7 @@ class AnkiCards:
     return {'action': action, 'params': params, 'version': 6}
   
   def request(self, action, **params):
-    requestJson = json.dumps(self.anki_request(action, **params)).encode('utf-8')
+    requestJson = json.dumps(self.__anki_request(action, **params)).encode('utf-8')
     response = json.load(urllib.request.urlopen(urllib.request.Request('http://127.0.0.1:8765', requestJson)))
     if len(response) != 2:
         raise Exception('response has an unexpected number of fields')

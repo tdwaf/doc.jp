@@ -1,6 +1,5 @@
 # doc.jp
 
-[![ci](https://github.com/tdwaf/doc.jp/actions/workflows/ci.yml/badge.svg)](https://github.com/tdwaf/doc.jp/actions/workflows/ci.yml)
 [![pages-build-deployment](https://github.com/tdwaf/doc.jp/actions/workflows/pages/pages-build-deployment/badge.svg?branch=main)](https://github.com/tdwaf/doc.jp/actions/workflows/pages/pages-build-deployment)
 
 ## What is it?

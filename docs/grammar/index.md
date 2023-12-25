@@ -8,6 +8,9 @@ This page is to house any grammar points I need to work on during my current stu
 - でも
 - だれ
 - とき
+- だけ
+- もらう
+- くれる
 
 ### Somewhat good, but not super confident
 

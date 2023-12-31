@@ -2,12 +2,24 @@
 
 I wanted a place to formulate some thoughts on my intended path going forward for studying. This is likely to change as I get further in my learning journey, but this is will always be what my current study plan is at the moment.
 
-## Plan as of 11/10/2023
+## Plan as of 12/31/2023
 
-I still plan on starting the **Tango N4** vocabulary deck after I finish **Tango N5**. However, after I finish **Tango N5**, I plan on doing mostly card reviews for a week or so (maybe two). During this time, I will mostly focus on building N5 level grammar. I'm a decent way there, but there's still more I need to work on. The one - two weeks following the completion of **Tango N5** will be when I get to a good point before moving on to more N4 level stuff.
+Right now, I'm going through the **Tango N4** vocab deck and am reviewing **Tango N5**. I tried doing some sentence mining instead of **Tango N4**, but I think it would be better if I just stuck to this deck and really worked on my grammar heavily. I've come up with a new plan:
 
-After I finish **Tango N4** which will take some time of course (probably like two months), I will do the same thing for N4 level grammar as I did with N5.
 
-After completing both vocabulary decks and finishing my Japanese From Zero text books (N5 & N4 grammar), I'll begin immersion. I plan on primarily using anime and graded readers. I may also use graded podcasts but those will be less frequent. 
+### What's remaining the same
 
-Overall, I will continue using bunpro for srs grammar practice going forward as it's a great way to train the grammar muscle.
+- I'm on track to complete **Tango N4** in march assuming nothing crazy happens. I will continue working through that deck and reviewing **Tango N5**.
+
+- Will continue to reinforce my grammar knowledge using bunpro as an srs mechanism. 
+
+### What is the new stuff
+
+I feel like I'm become somewhat stagnant with my grammar intake. I would like to change this moving into the new year
+
+- I plan on revisiting **Genki 1** for grammar and really taking my time and working through the grammar and doing the practice in the workbook and at the end of the section (as well as at the end of the book)
+    - I will move on to **Genki 2** after Genki 1 when I feel very confident on everything in the book.
+
+    - Will likely use TokiniAndy videos/course if I feel I need it.
+
+- Will begin satori reader stories/nhk easy news when I finish **Tango N4**.

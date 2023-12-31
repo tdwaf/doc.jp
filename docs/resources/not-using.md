@@ -23,6 +23,8 @@
 ### Browser Extensions
 
 - [Asbplayer](https://github.com/killergerbah/asbplayer): Load local subtitle files to video streaming sites.
+
+- [Migaku](https://migaku.com/): Honestly, it's mostly just a sentence mining thing for me (used it a bit). But they have some other cool features and an in house SRS tool which is nice and works well with the extension (easier to use than Anki with less setup)
     
 ### Dictionaries
     

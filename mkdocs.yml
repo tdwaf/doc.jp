@@ -7,12 +7,14 @@ nav:
   - 'Grammar': 'grammar/index.md'
   - 'Goals':
     - 'goals/long-term.md'
-    - 'goals/2023/december.md'
+    - 'goals/2024-yearly.md'
     - 'Legacy Goals':
       - '2023':
         - 'goals/2023/october.md'
         - 'goals/2023/november.md'
+        - 'goals/2023/december.md'
   - 'Tool Setup': 
+    - 'index.md'
     - 'Yomichan': 'tool-setup/yomichan.md'
     - 'Sentence Mining': 'tool-setup/mining.md'
   - 'Resources':

@@ -12,3 +12,7 @@ This page is to house any grammar points I need to work on during my current stu
 - のです
 - てもいい
 - てはいけない
+- こと
+- かる / らかる (Passive)
+- ～ておく
+- でも

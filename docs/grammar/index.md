@@ -8,3 +8,8 @@ This page is to house any grammar points I need to work on during my current stu
 - だけ
 - くれる
 - ～に行く
+- でも
+- れる・られる (Passive)
+- ～てから
+- ～てもいい (Verb)
+- 方

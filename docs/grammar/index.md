@@ -33,88 +33,89 @@ This is obviously a horrible system. But it'll work.
 - ね
 - でしょう
 - だろう
+- も (also)
+- の (possession)
+- いい
+- か (question)
+- を (object marking)
+- い-adjectives
+- な-adjectives
+- が (subject marking)
+- る-verb (dictionary)
+- う-verb (dictionary)
+- か (or)
+- する
+- くる
+- すき
+- きらい
+- から (both)
+- ましょう
+- ましょうか
+- る-verb (negative)
+- う-verb (negative)
+- が (but, however)
+- じゃない
+- い-adjective (past)
+- ぜんぜん
+- てください
+- ないでください
+- に (frequency)
+- だんだん
+- たくさん
+- たれ (who)
+- と (and)
+- と (with)
+- もう
+- まだ
+- と (quotation)
+- の (possessive use)
 
 ## Grammar I previously studied on bunpro
 
 - だ
-- も (also)
-- の (possession)
-- いい
-- い-adjectives
-- な-adjectives
-- か (question)
-- が (subject marking)
-- る-verb (dictionary)
-- う-verb (dictionary)
-- を (object marking)
-- る-verb (negative)
-- う-verb (negative)
-- と (and)
 - で (at)
 - に (in)
-- か (or)
-- と (with)
 - がある
 - がいる
 - ～んです
-- い-adjective (past)
 - の (verb normalizer)
 - い-adjective + Noun
 - な-adjective + Noun
-- する
-- くる
 - る-verb (past)
 - う-verb (past)
-- すき
-- きらい
 - くない
 - で (with)
-- から (both)
 - けど
-- が (but)
 - る-verb (negative past)
 - う-verb (negative past)
 - verb + て
 - ている (all three)
 - にいく
-- たれ (who)
-- じゃない
-- と (quotation)
-- の (possessive use)
 - だけ
 - てから
-- もう
-- まだ
 - たい
-- たくさん
 - まえに
 - verb + まで
 - より　のぼうが
 - だれか
-- ましょう
-- ましょうか
 - ませんか
 - verb + でもいい
-- てください
-- ないでください
 - ではいけない
 - adjective + て (conjunctive)
 - adjective + て + b
 - くれる
 - もらう
 - でも
-- だんだん
 - かた
 - れる・られる
 - とき
 - ごろ
-- に (frequency)
 - より
 - さ
-- ぜんぜん
 - ておく
 - いじょう
 - いか
 - ずっと
 - だいたい
 - それに
+- ために

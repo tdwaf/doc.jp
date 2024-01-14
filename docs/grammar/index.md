@@ -69,12 +69,16 @@ This is obviously a horrible system. But it'll work.
 - まだ
 - と (quotation)
 - の (possessive use)
+- で (at)
+- に (in)
+- で (with)
+- くらい
+- だ
+- ている (all three)
+- verb + て
 
 ## Grammar I previously studied on bunpro
 
-- だ
-- で (at)
-- に (in)
 - がある
 - がいる
 - ～んです
@@ -83,13 +87,9 @@ This is obviously a horrible system. But it'll work.
 - な-adjective + Noun
 - る-verb (past)
 - う-verb (past)
-- くない
-- で (with)
 - けど
 - る-verb (negative past)
 - う-verb (negative past)
-- verb + て
-- ている (all three)
 - にいく
 - だけ
 - てから

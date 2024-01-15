@@ -119,3 +119,11 @@ This is obviously a horrible system. But it'll work.
 - だいたい
 - それに
 - ために
+
+## Grammar I've seen in Tango N4 (anki deck) but haven't learned yet
+
+- てもいい
+- れる・られる (Passive)
+- ～ても・でも
+- たら
+- のに

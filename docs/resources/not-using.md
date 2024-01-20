@@ -1,10 +1,7 @@
 !!! failure "Important"
     I add and remove items from here all the time. I'm finding new resources all the time so I will update this page monthly so it's not always correct.
 
-!!! info
-    These resources are the online resources I've found or are using. This will not include any type of textbook or anki deck.
-
-    I'm also not including youtube playlists or channels as I have those stored in youtube already (accessible anywhere)
+    I'm also not listing textbooks used, however, I'm currently going through Genki 2 **as of 01/20/2024**
 
 ### Grammar
     
@@ -16,19 +13,17 @@
     
 - [Tadoku Graded Readers](https://tadoku.org/japanese/en/free-books-en/): Free graded books
     
-- [Satori Reader](https://www.satorireader.com/): Graded reader (paid)
-
 - [NHK Easy News](https://www3.nhk.or.jp/news/easy/): Essentially a graded reader but with Japanese news
 
 ### Browser Extensions
 
 - [Asbplayer](https://github.com/killergerbah/asbplayer): Load local subtitle files to video streaming sites.
-
-- [Migaku](https://migaku.com/): Honestly, it's mostly just a sentence mining thing for me (used it a bit). But they have some other cool features and an in house SRS tool which is nice and works well with the extension (easier to use than Anki with less setup)
     
 ### Dictionaries
     
-- [jpdb](https://jpdb.io/): Have pretty cool features. Also cool for generated Anki decks for anime, novels, etc. Essentially allowing you to skip sentence mining.
+- [jpdb](https://jpdb.io/): Have pretty cool features. Also cool for generated Anki decks for anime, novels, etc. Essentially allowing you to skip sentence mining. My favorite feature is you can paste an entire article from somewhere like nhk easy news and it will make an entire deck from it with all the vocab.
+
+- [Tokoboto](https://takoboto.jp/): Another dictionary I like to use from time to time. Not as much as the other two however
     
 ### TV / Movies
 
@@ -61,7 +56,5 @@
 - [Japanese Podcast Spreadsheet](https://docs.google.com/spreadsheets/d/17P2dBQHnBnHcG3ua_24IO6sP9RDC-5b3WHV9Ri2N5qU/edit#gid=0): Has a huge list of podcasts in Japanese. There's also a list (starter pack), that's sorted by Japanese level.
     
 ### Sentence Search
-    
-- [Immersion Kit](https://www.immersionkit.com/): Made by game gengo (amazing youtuber!). You can search sentences from anime, games, etc. with translation.
     
 - [Youglish](https://youglish.com/japanese): Sentences sourced from YouTube video subtitles. Great tool for pronunciation as the words are said by native speakers speaking naturally.

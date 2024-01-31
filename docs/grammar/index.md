@@ -76,6 +76,15 @@ This is obviously a horrible system. But it'll work.
 - だ
 - ている (all three)
 - verb + て
+- る-verb (past)
+- う-verb (past)
+- る-verb (negative past)
+- う-verb (negative past)
+- ごろ
+- だいたい
+- もらう
+- くれる
+- あげる
 
 ## Grammar I previously studied on bunpro
 
@@ -85,11 +94,7 @@ This is obviously a horrible system. But it'll work.
 - の (verb normalizer)
 - い-adjective + Noun
 - な-adjective + Noun
-- る-verb (past)
-- う-verb (past)
 - けど
-- る-verb (negative past)
-- う-verb (negative past)
 - にいく
 - だけ
 - てから
@@ -103,20 +108,16 @@ This is obviously a horrible system. But it'll work.
 - ではいけない
 - adjective + て (conjunctive)
 - adjective + て + b
-- くれる
-- もらう
 - でも
 - かた
 - れる・られる
 - とき
-- ごろ
 - より
 - さ
 - ておく
 - いじょう
 - いか
 - ずっと
-- だいたい
 - それに
 - ために
 

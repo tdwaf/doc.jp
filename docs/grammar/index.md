@@ -85,6 +85,9 @@ This is obviously a horrible system. But it'll work.
 - もらう
 - くれる
 - あげる
+- たい
+- まえに
+- てもいい
 
 ## Grammar I previously studied on bunpro
 
@@ -98,8 +101,6 @@ This is obviously a horrible system. But it'll work.
 - にいく
 - だけ
 - てから
-- たい
-- まえに
 - verb + まで
 - より　のぼうが
 - だれか
@@ -123,8 +124,6 @@ This is obviously a horrible system. But it'll work.
 
 ## Grammar I've seen in Tango N4 (anki deck) but haven't learned yet
 
-- てもいい
-- れる・られる (Passive)
 - ～ても・でも
 - たら
 - のに

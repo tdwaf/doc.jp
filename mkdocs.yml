@@ -1,23 +1,20 @@
 site_name: doc.jp
 site_author: tdwaf
 nav:
-  - 'Home': 
-    - 'index.md'
-    - 'misc/learning-journey.md'
+  - 'Home': 'index.md'
   - 'Grammar': 'grammar/index.md'
   - 'Goals':
+    - 'goals/index.md'
     - 'goals/long-term.md'
-    - 'Goals for the year': 'goals/2024/2024-yearly.md'
-    - 'goals/2024/january.md'
+    - 'Goals For The Year': 'goals/2024/2024-yearly.md'
+    - 'February 2024 Goals': 'goals/2024/february.md'
     - 'Legacy Goals':
+      - '2024':
+        - 'goals/2024/legacy/january.md'
       - '2023':
         - 'goals/2023/october.md'
         - 'goals/2023/november.md'
         - 'goals/2023/december.md'
-  - 'Tool Setup': 
-    - 'tool-setup/index.md'
-    - 'Yomichan': 'tool-setup/yomichan.md'
-    - 'Sentence Mining': 'tool-setup/mining.md'
   - 'Resources':
     - 'Currently Using': 'resources/currently-using.md'
     - 'Not Using Currently': 'resources/not-using.md'

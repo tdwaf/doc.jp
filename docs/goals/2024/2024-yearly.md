@@ -2,13 +2,9 @@
 
 ## Goals
 
-- Finish Tango N4 Vocabulary Anki Deck
+- Finish Genki 2
 
-- Finish Genki 1 and Genki 2
-
-- Read and understand 10 NHK easy news articles
-
-- Read and understand 10 Satori Reader stories
+- Immerse in 100 hours of content
 
 ### Stretch Goals
 

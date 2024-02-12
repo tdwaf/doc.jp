@@ -2,10 +2,6 @@
     I add and remove items from here all the time. I'm finding new resources all the time so I will update this page monthly so it's not always correct.
 
     I'm also not listing textbooks used, however, I'm currently going through Genki 2 **as of 01/20/2024**
-
-### Grammar
-    
-- [TokiniAndy Course](https://www.tokiniandy.com/login): He has free youtube videos but the course is amazing. Has graded readers, shadowing practice, vocabulary review, textbook lesson and practice (Genki), and more. I'm not using it anymore as I'm following a different book than genki now.
     
 - [Genki Study Resources By Seth Clydesdale](https://sethclydesdale.github.io/genki-study-resources/lessons-3rd/): Amazing resource if you're going through Genki 1. Has a ton of practice for all lessons of Genki 1
     
@@ -30,8 +26,6 @@
 - [Kitsunekko](https://kitsunekko.net/dirlist.php?dir=subtitles%2Fjapanese%2F): Probably the biggest collection of Japanese subtitles for anime. An absolute lifesaver for immersion.
     
 - [Super Native](https://supernative.tv/): Cool site that trains you to hear, read, and speak Japanese from TV and movies.
-    
-- [Language Reactor](https://www.languagereactor.com/): Kind of like migaku or asbplayer in a way. Embeds directly to youtube or netflix (there are others). Allows you to mine from TV and movies.
     
 - [Aniwatch.to](https://aniwatch.to/): Anime streaming site (mostly use for anime that isn't on any streaming platforms like Crunchyroll, Hidive, Amazon, etc.)
 

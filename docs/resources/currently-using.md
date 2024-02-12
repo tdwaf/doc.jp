@@ -9,6 +9,8 @@
 
 - [Migaku](https://migaku.com/): Honestly, it's mostly just a sentence mining thing for me. I prefer it over using yomitan and asbplayer. Might change in the future though.
 
+- [Language Reactor](https://www.languagereactor.com/): Kind of like migaku or asbplayer in a way. Embeds directly to youtube or netflix (there are others). Allows you to mine from TV and movies.
+
 ### Graded Readers
 
 - [Satori Reader](https://www.satorireader.com/): I really like this service. It essentially just a site with tons of graded stories. However, the sentence by sentence translation and native audio make the whole service very nice to use.
@@ -16,6 +18,8 @@
 ### Grammar
 
 - [Bunpro](https://bunpro.jp/grammar_points): Pretty cool. Groups grammar points by N~ level or by textbook. Will essentially make the equivolent of an Anki deck in the UI. I use it more so for repetition but I learn from text books.
+
+- [TokiniAndy Course](https://www.tokiniandy.com/login): He has free youtube videos but the course is amazing. Has graded readers, shadowing practice, vocabulary review, textbook lesson and practice (Genki), and more. I'm not using it anymore as I'm following a different book than genki now.
 
 ### Dictionaries
 

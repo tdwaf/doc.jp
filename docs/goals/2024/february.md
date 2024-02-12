@@ -1,0 +1,2 @@
+- Immerse with comprehensible input at least 30 minutes per day
+- Do at least 2 new chapters of genki 2

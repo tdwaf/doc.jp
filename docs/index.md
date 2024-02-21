@@ -22,19 +22,6 @@ Nowadays, I continue to learn Japanese as I fell in love with the language (I al
 
 A big part of keeping my studies interesting is setting realistic goals. I house my goals in a separate section which can be found [here](./goals/index.md)
 
-
-## Grammar
-
-I keep track of the grammar points I need to work on (from my studies every day). I house those on a separate page which can be found [here](./grammar/index.md).
-
-## Goals
-
-I set goals for my learning every month! I house my goals in a separate page which can be found [here](./goals/long-term.md).
-
-## Tool Setup
-
-I like to keep track of the various guides I use for setting up tools for sentence mining and yomichan. I house these in a separate page which can be found [here](./tool-setup/yomichan.md).
-
 ## Resources
 
 I tend to use a lot of different resources and I like to keep track of them all. They can be found in a separate page [here](./resources/currently-using.md).

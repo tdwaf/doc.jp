@@ -1,7 +1,7 @@
 !!! failure "Important"
     I add and remove items from here all the time. I'm finding new resources all the time so I will update this page monthly so it's not always correct.
 
-    I'm also not listing textbooks used, however, I'm currently going through Genki 2 **as of 01/20/2024**
+    I'm also not listing textbooks on the not using page.
     
 - [Genki Study Resources By Seth Clydesdale](https://sethclydesdale.github.io/genki-study-resources/lessons-3rd/): Amazing resource if you're going through Genki 1. Has a ton of practice for all lessons of Genki 1
     
@@ -33,10 +33,6 @@
     
 - [Animelon](https://animelon.com/): Can actually stream anime with Japanese subtitles which is pretty cool. Don't use it a ton but.
     
-### Manga
-    
-- [Mokuro](https://github.com/kha-white/mokuro): Allows you to read Japanese manga with Yomichan selectable text inside a browser.
-    
 ### Games
     
 - [Game2Text](https://game2text.com/): Essentially adds the ability to parse Japanese from games
@@ -52,3 +48,7 @@
 ### Sentence Search
     
 - [Youglish](https://youglish.com/japanese): Sentences sourced from YouTube video subtitles. Great tool for pronunciation as the words are said by native speakers speaking naturally.
+
+### Grammar
+
+- [TokiniAndy Course](https://www.tokiniandy.com/login): He has free youtube videos but the course is amazing. Has graded readers, shadowing practice, vocabulary review, textbook lesson and practice (Genki), and more. I'm not using it anymore as I'm following a different book than genki now.

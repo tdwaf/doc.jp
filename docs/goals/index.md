@@ -1,25 +1,13 @@
 # My Japanese Language Learning Goals
 
-Goals are super important! To keep my learning journey fresh and interesting (and to remember why I'm doing what I'm doing in the first place), I like to set realistic goals. The goals section of the site is dedicated to this purpose.
+The way I organize and keep track of my goals has changed over time. I used to make a new document for each month of a particular year; however, this became far too tedious as the goals were relatively similar. I now have a file for short term and long term goals which makes my life much simpler; however, I still like to revise and ensure my goals are still accurate every month (for short term).
 
-## Structure
+- **Short Term** goals are likely to change frequently (if not every month). I keep track of my current short term goals in the [Short Term Goals](./short-term.md) file.
 
-I structure the goals section into 4 categories: **Long term goals**, **Goals for the year**, **Monthly goals**, and **Legacy goals**.
+- **Long Term** goals are unlikely to change frequently. I typically review these once a year to ensure they're still accurate (this isn't a hard rule, but it's what I typically do). I keep track of my current long term goals in the [Long Term Goals](./long-term.md) file.
 
-All types of goals can be navigated to by using the navigation bar on the left hand side of the screen.
+## Why do I have these?
 
-### Long term goals
+When I began studying Japanese, I had a goal in mind. Of course, my 'motivations' changed over time; however, continuing to have goals makes the learning process much more fun. It provides something to strive for.
 
-Long term goals are goals I want to achieve in the far future (most of which require a certain level of proficiency to achieve).
-
-### Goals for the year
-
-I think it's important to set yearly goals in addition to monthly goals. That's the purpose of this page.
-
-### Monthly goals
-
-Of course, the meat and potatoes for the most part are my monthly goals. Every month I add a page for the current months goals. I then move the previous month to the legacy goals section.
-
-### Legacy goals
-
-This section houses the goals I had from previous months. I liked the idea of being able to go back and observe my progress over time.
+I don't necessarily 'need' them as I have a daily routine that I do no matter what. But it's nice to have something to work towards (makes the learning process more rewarding)

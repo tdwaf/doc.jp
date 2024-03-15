@@ -5,7 +5,7 @@ This will describe the resources that I'm currently using, or have used in the p
 ## Japanese Learning Resources
 
 1. [Guides](#guides)
-2. [Grannar](#grammar)
+2. [Grammar](#grammar)
 3. [Input](#input)
 4. [Browser Extensions](#browser-extensions)
 5. [Kanji](#kanji)

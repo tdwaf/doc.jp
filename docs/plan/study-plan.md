@@ -8,8 +8,8 @@
 
 This page will describe the current study plan I have for myself. This isn't going to be super detailed, but will list my current flow.
 
-- Anki Kaishi deck
-- Bunpro grammar review (will add a new one from here or from Genki 2)
-- WaniKani lesson and review
-- Satori Reader Grammar Nutshell lesson (sometimes two)
-- Immerse in comprehensible Japanese video
+- Start my morning with new vocab and reviews using the Kaishi Anki deck
+- Do my bunpro grammar reviews and add a new grammar point to review (either from bunrpo or genki 2)
+- Do my WaniKani reviews (or new cards once a week)
+- Do one or two Grammar Nutshell lessons (from satori reader)
+- Immerse using at least one Comprehensible Japanese video (youtube)

@@ -21,11 +21,13 @@ jobs:
         with:
           assignees: "tdwaf"
           labels: "todo, documentation"
-          title: "Update resources pages for ${{ steps.date.outputs.month }}/${{ steps.date.outputs.year }}"
+          title: "Update resources page for ${{ steps.date.outputs.month }}/${{ steps.date.outputs.year }}"
           body: |
+            Monthly update to resources! If there are no changes, close this issue with a comment explaining so.
+
             ### What needs to be done
 
-            - [ ] Update currently using page
-            - [ ] Update not using page
+            - [ ] Update resources page
+            - [ ] Link issue to pull request updating resources
           pinned: false
           close-previous: false

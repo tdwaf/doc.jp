@@ -1,12 +1,15 @@
 # Study Plan
 
-This is a place to formulate some thoughts on my intended path going forward (related to my studies). This changes frequently; however, the plan section will always have the date at which I updated it last. My plan can sometimes change a bit between documentation updates (documentation changes take time away from studying); however, it's typically what my current plan is at the moment.
-
 !!!failure "Important"
-    Some of the wording in this plan will seem like I'm directing the explanation outward (for external use). However, it's mostly so I fully understand what my plan is and why I'm doing it that way.
+    This page is subject to change (I'm trying a new format and may or may not change it).
 
-    If you happen to be reading this and it does provide some value to you, please use it. However, it should be noted that this plan is for me personally and is subject to change.
+    I also may or may not remove this page entirely
 
-## Plan as of 02/12/2024
 
-Working through Genki 2 and the refold JP1k deck. I'm also immersing at least 30 minutes a day (mostly youtube right now - once without subtitles and once with Japanese subtitles)
+This page will describe the current study plan I have for myself. This isn't going to be super detailed, but will list my current flow.
+
+- Start my morning with new vocab and reviews using the Kaishi Anki deck
+- Do my bunpro grammar reviews and add a new grammar point to review (either from bunrpo or genki 2)
+- Do my WaniKani reviews (or new cards once a week)
+- Do one or two Grammar Nutshell lessons (from satori reader)
+- Immerse using at least one Comprehensible Japanese video (youtube)

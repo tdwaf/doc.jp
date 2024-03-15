@@ -1,23 +1,14 @@
 site_name: doc.jp
 site_author: tdwaf
 nav:
-  - 'Home': 'index.md'
-  - 'Grammar': 'grammar/index.md'
+  - 'Home':
+    - 'index.md'
+    - 'Journey': 'home/journey.md'
   - 'Goals':
     - 'goals/index.md'
+    - 'goals/short-term.md'
     - 'goals/long-term.md'
-    - 'Goals For The Year': 'goals/2024/2024-yearly.md'
-    - 'February 2024 Goals': 'goals/2024/february.md'
-    - 'Legacy Goals':
-      - '2024':
-        - 'goals/2024/legacy/january.md'
-      - '2023':
-        - 'goals/2023/october.md'
-        - 'goals/2023/november.md'
-        - 'goals/2023/december.md'
-  - 'Resources':
-    - 'Currently Using': 'resources/currently-using.md'
-    - 'Not Using Currently': 'resources/not-using.md'
+  - 'Resources': 'resources/index.md'
   - 'Study Plan': 'plan/study-plan.md'
 theme:
   name: material
@@ -40,8 +31,6 @@ theme:
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
-      primary: indigo
-      accent: indigo
       
     # Dark Mode
     - scheme: slate
@@ -66,10 +55,13 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.tilde
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
 plugins: [ search ]
 extra_css: [ css/styles.css ]
